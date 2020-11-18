@@ -1,25 +1,28 @@
 module.exports = app => {
-  const cars = require("../controllers/car.controller");
+  const cars = require("../controllers/car.controller.js");
 
   var router = require("express").Router();
 
-  // Create a new Box
+  // Create a new Car
   router.post("/", cars.create);
 
-  // Retrieve all Box
+  // Retrieve all Cars
   router.get("/", cars.findAll);
 
-  // // Retrieve a single Box with id
-  // router.get("/:id", cars.findOne);
+  // Retrieve all published Cars
+  router.get("/published", cars.findAllPublished);
 
-  // // Update a Box with id
-  // router.put("/:id", cars.update);
+  // Retrieve a single Car with id
+  router.get("/:id", cars.findOne);
 
-  // // Delete a Box with id
-  // router.delete("/:id", cars.delete);
+  // Update a Car with id
+  router.put("/:id", cars.update);
 
-  // // Create a new Box
-  // router.delete("/", cars.deleteAll);
+  // Delete a Car with id
+  router.delete("/:id", cars.delete);
+
+  // Delete all Cars
+  router.delete("/", cars.deleteAll);
 
   app.use('/api/cars', router);
 };
