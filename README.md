@@ -21,7 +21,8 @@ npm install express sequelize mysql2 body-parser cors --save
 
 ## Documentation (Spanish)
 
-Attached "Documentation.docx" on root folter
+Attached "Documentation.docx" on root folder 
+https://github.com/JoelLF/Task-Manager/blob/master/Documentation.docx
 
 ## Usage
 
