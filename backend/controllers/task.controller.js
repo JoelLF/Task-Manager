@@ -16,7 +16,8 @@ exports.create = (req, res) => {
       TaskName: req.body.TaskName,
       Description: req.body.Description,
       Status: req.body.Status,
-      Workers: req.body.Workers
+      Workers: req.body.Workers,
+      AreaName: req.body.AreaName
     };
   
     // Save Task in the database
@@ -37,6 +38,22 @@ exports.create = (req, res) => {
     var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
   
     Task.findAll({ where: condition })
+      .then(data => {
+        res.send(data);
+      })
+      .catch(err => {
+        res.status(500).send({
+          message:
+            err.message || "Some error occurred while retrieving tasks."
+        });
+      });
+  };
+
+  exports.findAllArea = (req, res) => {
+    const areaName = req.params.AreaName;
+    var condition2 = areaName ? { AreaName: { [Op.like]: `%${areaName}%` } } : null;
+  
+    Task.findAll({ where: condition2})
       .then(data => {
         res.send(data);
       })
@@ -138,4 +155,3 @@ exports.create = (req, res) => {
         });
       });
   };
-

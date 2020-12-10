@@ -1,0 +1,69 @@
+<div style="width: 400px; margin: auto;">
+    <div *ngIf="currentTask" class="edit-form">
+      <h4>Tarea</h4>
+      <form>
+        <div class="form-group">
+            <label for="title">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="TaskName"
+              required
+              [(ngModel)]="currentTask.TaskName"
+              name="TaskName"
+            />
+          </div>
+    
+          <div class="form-group">
+            <label for="description">Description</label>
+            <input
+              class="form-control"
+              id="Description"
+              required
+              [(ngModel)]="currentTask.Description"
+              name="Description"
+            />
+          </div>
+  
+          <div class="form-group">
+              <label for="status">Status</label>
+              <input
+                class="form-control"
+                id="Status"
+                required
+                [(ngModel)]="currentTask.Status"
+                name="Status"
+              />
+            </div>
+  
+            <div class="form-group">
+              <label for="workers">Workers</label>
+              <input
+                class="form-control"
+                id="Workers"
+                required
+                [(ngModel)]="currentTask.Workers"
+                name="Workers"
+              />
+            </div>
+      </form>
+  
+      <button class="badge badge-danger mr-2" (click)="deleteTask()">
+        Delete
+      </button>
+  
+      <button
+        type="submit"
+        class="badge badge-success"
+        (click)="updateTask()"
+      >
+        Update
+      </button>
+      <p>{{ message }}</p>
+    </div>
+  
+    <div *ngIf="!currentTask">
+      <br />
+      <p>Cannot access this Tutorial...</p>
+    </div>
+  </div>

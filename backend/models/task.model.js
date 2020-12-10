@@ -1,5 +1,6 @@
 module.exports = (sequelize, Sequelize) => {
     const Task = sequelize.define("task", {
+
       TaskName: {
         type: Sequelize.STRING
       },
@@ -11,8 +12,11 @@ module.exports = (sequelize, Sequelize) => {
       },
       Workers: {
           type: Sequelize.STRING
+      },
+      AreaName: {
+        type: Sequelize.STRING
       }
-    });
+    }, { timestamps: false });
   
     return Task;
   };
