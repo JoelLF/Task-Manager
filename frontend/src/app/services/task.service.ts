@@ -1,8 +1,15 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
+const httpOptions = {
+  headers: new HttpHeaders({
+    'Content-Type': 'application/x-www-form-urlencoded'
+  })
+};
+
 const baseUrl = 'http://localhost:8080/api/tasks';
+const selectedUrl = 'http://localhost:8080/api/tasks/areas';
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +23,7 @@ export class TaskService {
   }
 
   getAllArea(AreaName): Observable<any> {
-    return this.http.get(`${baseUrl}/${AreaName}`);
+    return this.http.get(`${selectedUrl}/${AreaName}`);
   }
 
   get(id): Observable<any> {
@@ -24,7 +31,18 @@ export class TaskService {
   }
 
   create(data): Observable<any> {
-    return this.http.post(baseUrl, data);
+    var myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+
+    var urlEncoded = new URLSearchParams();
+    urlEncoded.append("TaskName", data.TaskName);
+    urlEncoded.append("Description", data.Description);
+    urlEncoded.append("Status", data.Status);
+    urlEncoded.append("Workers", data.Workers);
+    urlEncoded.append("AreaName", data.AreaName);
+    let body = urlEncoded.toString();
+
+    return this.http.post(baseUrl, body, httpOptions);
   }
 
   update(id, data): Observable<any> {

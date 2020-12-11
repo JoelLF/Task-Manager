@@ -10,7 +10,7 @@ module.exports = app => {
   router.get("/", tasks.findAll);
 
   // Retrieve all Tasks by area name
-  router.get(":AreaName", tasks.findAllArea);
+  router.get("/areas/:AreaName", tasks.findAllArea);
 
   // Retrieve a single Task with id
   router.get("/:id", tasks.findOne);

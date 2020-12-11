@@ -6,7 +6,7 @@
       <ul class="list-group">
         <li
           class="list-group-item"
-          *ngFor="let task of tasks; let i = index"
+          *ngFor="let task of selectedTasks; let i = index"
           [class.active]="i == currentIndex"
           (click)="setActiveTask(task, i)"
         >
@@ -36,11 +36,18 @@
            <label><strong>Trabajador/es asignados:</strong></label>
            {{ currentTask.Workers }}
         </div>
+        <div hidden id="area">
+          <label><strong>Area a la que pertenece:</strong></label>
+          {{ currentTask.AreaName }}
+       </div>
   
-        <a class="badge badge-warning" routerLink="/tasks/{{ currentTask.id }}">
+        <a class="badge badge-warning" routerLink="/tasks/edit/{{ currentTask.id }}">
             Modificar
         </a>
       </div>
+      <li>
+        <a routerLink="/add/{{ AreaName }}" class="nav-link">Add</a>
+      </li>
   
       <div *ngIf="!currentTask">
         <br />

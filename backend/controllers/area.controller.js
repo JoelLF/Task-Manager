@@ -1,10 +1,10 @@
 const db = require("../models");
-const Task = db.tasks;
+const Area = db.area;
 const Op = db.Sequelize.Op;
 
 exports.create = (req, res) => {
     // Validate request
-    if (!req.body.TaskName) {
+    if (!req.body.AreaName) {
       res.status(400).send({
         message: "Content can not be empty!"
       });
@@ -12,16 +12,14 @@ exports.create = (req, res) => {
     }
   
     // Create a Task
-    const task = {
-      TaskName: req.body.TaskName,
-      Description: req.body.Description,
-      Status: req.body.Status,
+    const area = {
+      AreaName: req.body.AreaName,
       Workers: req.body.Workers,
-      AreaName: req.body.AreaName
+      Coordinator: req.body.Coordinator
     };
   
     // Save Task in the database
-    Task.create(task)
+    Area.create(area)
       .then(data => {
         res.send(data);
       })
@@ -37,23 +35,7 @@ exports.create = (req, res) => {
     const title = req.query.title;
     var condition = title ? { title: { [Op.like]: `%${title}%` } } : null;
   
-    Task.findAll({ where: condition })
-      .then(data => {
-        res.send(data);
-      })
-      .catch(err => {
-        res.status(500).send({
-          message:
-            err.message || "Some error occurred while retrieving tasks."
-        });
-      });
-  };
-
-  exports.findAllArea = (req, res) => {
-    const areaName = req.params.AreaName;
-    var condition = areaName ? { AreaName: { [Op.like]: `%${areaName}%` } } : null;
-  
-    Task.findAll({ where: condition})
+    Area.findAll({ where: condition })
       .then(data => {
         res.send(data);
       })
@@ -68,7 +50,7 @@ exports.create = (req, res) => {
   exports.findOne = (req, res) => {
     const id = req.params.id;
   
-    Task.findByPk(id)
+    Area.findByPk(id)
       .then(data => {
         res.send(data);
       })
@@ -82,7 +64,7 @@ exports.create = (req, res) => {
   exports.update = (req, res) => {
     const id = req.params.id;
   
-    Task.update(req.body, {
+    Area.update(req.body, {
       where: { id: id }
     })
       .then(num => {
@@ -106,7 +88,7 @@ exports.create = (req, res) => {
   exports.delete = (req, res) => {
     const id = req.params.id;
   
-    Task.destroy({
+    Area.destroy({
       where: { id: id }
     })
       .then(num => {
@@ -128,7 +110,7 @@ exports.create = (req, res) => {
   };
 
   exports.deleteAll = (req, res) => {
-    Task.destroy({
+    Area.destroy({
       where: {},
       truncate: false
     })

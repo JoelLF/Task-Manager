@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { TaskService } from 'src/app/services/task.service';
 
 
@@ -9,23 +10,31 @@ import { TaskService } from 'src/app/services/task.service';
 })
 export class AddTaskComponent implements OnInit {
 
+  areaName = this.route.snapshot.paramMap.get('AreaName');
+
   task = {
     TaskName: '',
     Description: '',
     Status: '',
-    Workers: ''
+    Workers: '',
+    AreaName: ''
   };
   submitted = false;
 
-  constructor(private taskService: TaskService) { }
+  constructor(private taskService: TaskService,
+    private route: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit(): void {
   }
 
   saveTask(): void {
     const data = {
-      title: this.task.TaskName,
-      description: this.task.Description
+      TaskName: this.task.TaskName,
+      Description: this.task.Description,
+      Status: this.task.Status,
+      Workers: this.task.Workers,
+      AreaName: this.areaName
     };
 
     this.taskService.create(data)
@@ -45,7 +54,8 @@ export class AddTaskComponent implements OnInit {
       TaskName: '',
       Description: '',
       Status: '',
-      Workers: ''
+      Workers: '',
+      AreaName: '',
     };
   }
 }

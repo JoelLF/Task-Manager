@@ -9,13 +9,15 @@ import { TasksListComponent } from './components/tasks-list/tasks-list.component
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AreaListComponent } from './components/area-list/area-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddTaskComponent,
     TaskDetailsComponent,
-    TasksListComponent
+    TasksListComponent,
+    AreaListComponent
   ],
   imports: [
     BrowserModule,

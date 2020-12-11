@@ -20,5 +20,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.tasks = require("./task.model.js")(sequelize, Sequelize);
+db.area = require("./area.model.js")(sequelize, Sequelize);
 
 module.exports = db;

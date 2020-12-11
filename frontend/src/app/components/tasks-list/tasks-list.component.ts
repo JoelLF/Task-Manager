@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-tasks-list',
@@ -9,14 +10,32 @@ import { TaskService } from 'src/app/services/task.service';
 export class TasksListComponent implements OnInit {
 
   tasks: any;
+  selectedTasks: any;
+  AreaName = this.route.snapshot.paramMap.get('AreaName');
   currentTask = null;
   currentIndex = -1;
   title = '';
+  message = '';
 
-  constructor(private taskService: TaskService) { }
+  constructor(private taskService: TaskService,
+    private route: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit(): void {
-    this.retrieveTasks();
+    this.message = '';
+    this.getTask(this.AreaName);
+  }
+
+  getTask(AreaName): void {
+    this.taskService.getAllArea(AreaName)
+      .subscribe(
+        data => {
+          this.selectedTasks = data;
+          console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
   }
 
   retrieveTasks(): void {
