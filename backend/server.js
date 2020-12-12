@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
 
 require("./routes/task.routes")(app);
 require("./routes/area.routes")(app);
+require("./routes/worker.routes")(app);
+require("./routes/status.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;

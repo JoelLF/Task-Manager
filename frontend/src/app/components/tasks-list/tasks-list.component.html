@@ -1,57 +1,56 @@
 <div class="list row">
-    <div class="col-md-8">
-    </div>
-    <div class="col-md-6">
-      <h4>Tasks List</h4>
-      <ul class="list-group">
-        <li
-          class="list-group-item"
-          *ngFor="let task of selectedTasks; let i = index"
-          [class.active]="i == currentIndex"
-          (click)="setActiveTask(task, i)"
-        >
-          {{ task.TaskName }}
-        </li>
-      </ul>
-  
-      <button class="m-3 btn btn-sm btn-danger" (click)="removeAllTasks()">
-        Borrar todo
+  <div class="col-md-8">
+  </div>
+  <div class="col-md-6">
+    <h4>Listado de tareas del área: {{ AreaName }}</h4>
+
+    <button routerLink="/add/{{ AreaName }}" class="nav-link">
+      Añadir tarea
+    </button>
+
+    <button class="badge badge-warning" routerLink="/area">
+      Volver
+    </button>
+
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let task of selectedTasks; let i = index" [class.active]="i == currentIndex"
+        (click)="setActiveTask(task, i)">
+        {{ task.TaskName }}
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <div *ngIf="currentTask">
+      <h4>Tarea</h4>
+      <div>
+        <label><strong>Nombre: </strong></label> {{ currentTask.TaskName }}
+      </div>
+      <div>
+        <label><strong>Descripción: </strong></label>
+        {{ currentTask.Description }}
+      </div>
+      <div>
+        <label><strong>Estado: </strong></label>
+        {{ currentTask.Status }}
+      </div>
+      <div>
+        <label><strong>Trabajador/es asignados: </strong></label>
+        {{ currentTask.Workers }}
+      </div>
+      <div hidden id="area">
+        <label><strong>Area a la que pertenece:</strong></label>
+        {{ currentTask.AreaName }}
+      </div>
+
+      <button class="badge badge-warning" routerLink="/tasks/edit/{{ currentTask.id }}">
+        Modificar
       </button>
     </div>
-    <div class="col-md-6">
-      <div *ngIf="currentTask">
-        <h4>Tarea</h4>
-        <div>
-          <label><strong>Nombre:</strong></label> {{ currentTask.TaskName }}
-        </div>
-        <div>
-          <label><strong>Descripción:</strong></label>
-          {{ currentTask.Description }}
-        </div>
-        <div>
-           <label><strong>Estado:</strong></label>
-           {{ currentTask.Status }}
-        </div>
-        <div>
-           <label><strong>Trabajador/es asignados:</strong></label>
-           {{ currentTask.Workers }}
-        </div>
-        <div hidden id="area">
-          <label><strong>Area a la que pertenece:</strong></label>
-          {{ currentTask.AreaName }}
-       </div>
-  
-        <a class="badge badge-warning" routerLink="/tasks/edit/{{ currentTask.id }}">
-            Modificar
-        </a>
-      </div>
-      <li>
-        <a routerLink="/add/{{ AreaName }}" class="nav-link">Add</a>
-      </li>
-  
-      <div *ngIf="!currentTask">
-        <br />
-        <p>Selecciona una tarea...</p>
-      </div>
+
+    <div *ngIf="!currentTask">
+      <br />
+      <p>Seleccione una tarea para consultar más información
+      <p>
     </div>
   </div>
+</div>

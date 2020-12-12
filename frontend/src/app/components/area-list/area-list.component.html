@@ -1,41 +1,39 @@
 <div class="list row">
-    <div class="col-md-8">
-    </div>
-    <div class="col-md-6">
-      <h4>Area List</h4>
-      <ul class="list-group">
-        <li
-          class="list-group-item"
-          *ngFor="let area of area; let i = index"
-          [class.active]="i == currentIndex"
-          (click)="setActiveArea(area, i)"
-        >
-          {{ area.AreaName }}
-        </li>
-      </ul>
-      
-    </div>
-    <div class="col-md-6">
-      <div *ngIf="currentArea">
-        <h4>Area</h4>
-        <div>
-          <label><strong>Name:</strong></label> {{ currentArea.AreaName }}
-        </div>
-        <div>
-          <label><strong>Workers:</strong></label>
-          {{ currentArea.Workers }}
-        </div>
-        <div>
-          <label><strong>Coordinator:</strong></label>
-          {{ currentArea.Coordinator }}
-        </div>
-  
-        <a class="badge badge-warning" routerLink="/tasks/{{ currentArea.AreaName }}">
-          This area's task list
-        </a>
+  <div class="col-md-8">
+  </div>
+  <div class="col-md-6">
+    <h4>Áreas ITC</h4>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let area of area; let i = index" [class.active]="i == currentIndex"
+        (click)="setActiveArea(area, i)">
+        {{ area.AreaName }}
+      </li>
+    </ul>
+
+  </div>
+  <div class="col-md-6">
+    <div *ngIf="currentArea">
+      <h4>Área</h4>
+      <div>
+        <label><strong>Nombre: </strong></label> {{ currentArea.AreaName }}
       </div>
-  
-      <div *ngIf="!currentArea">
+      <div>
+        <label><strong>Número de trabajadores:</strong></label>
+        {{ currentArea.Workers }}
       </div>
+      <div>
+        <label><strong>Coordinador:</strong></label>
+        {{ currentArea.Coordinator }}
+      </div>
+
+      <button class="badge badge-warning" routerLink="/tasks/{{ currentArea.AreaName }}">
+        Ver listado de tareas para esta área
+      </button>
+    </div>
+
+    <div *ngIf="!currentArea">
+      <br />
+      <p>Seleccione un área para consultar más información</p>
     </div>
   </div>
+</div>

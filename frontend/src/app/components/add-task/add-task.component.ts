@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { StatusService } from 'src/app/services/status.service';
 import { TaskService } from 'src/app/services/task.service';
+import { WorkerService } from 'src/app/services/worker.service';
 
 
 @Component({
@@ -11,6 +13,9 @@ import { TaskService } from 'src/app/services/task.service';
 export class AddTaskComponent implements OnInit {
 
   areaName = this.route.snapshot.paramMap.get('AreaName');
+  item = "Pendiente";
+  workers: any;
+  statuses: any; 
 
   task = {
     TaskName: '',
@@ -22,10 +27,38 @@ export class AddTaskComponent implements OnInit {
   submitted = false;
 
   constructor(private taskService: TaskService,
+    private workerService: WorkerService,
+    private statusService: StatusService,
     private route: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
+    this.retrieveWorkers();
+    this.retrieveStatus();
+  }
+
+  retrieveStatus(): void {
+    this.statusService.getAll()
+      .subscribe(
+        data => {
+          this.statuses = data;
+          console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
+  }
+
+  retrieveWorkers(): void {
+    this.workerService.getAll()
+      .subscribe(
+        data => {
+          this.workers = data;
+          console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
   }
 
   saveTask(): void {

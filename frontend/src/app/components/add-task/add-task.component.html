@@ -1,58 +1,41 @@
 <div style="width: 400px; margin: auto;">
-    <div class="submit-form">
-      <div *ngIf="!submitted">
-        <div class="form-group">
-          <label for="title">Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="TaskName"
-            required
-            [(ngModel)]="task.TaskName"
-            name="TaskName"
-          />
-        </div>
-  
-        <div class="form-group">
-          <label for="description">Description</label>
-          <input
-            class="form-control"
-            id="Description"
-            required
-            [(ngModel)]="task.Description"
-            name="Description"
-          />
-        </div>
-
-        <div class="form-group">
-            <label for="status">Status</label>
-            <input
-              class="form-control"
-              id="Status"
-              required
-              [(ngModel)]="task.Status"
-              name="Status"
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="workers">Workers</label>
-            <input
-              class="form-control"
-              id="Workers"
-              required
-              [(ngModel)]="task.Workers"
-              name="Workers"
-            />
-          </div>
-  
-        <button (click)="saveTask()" class="btn btn-success">Submit</button>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="form-group">
+        <label for="title">Nombre: </label>
+        <input type="text" class="form-control" id="TaskName" required [(ngModel)]="task.TaskName" name="TaskName" />
       </div>
-  
-      <div *ngIf="submitted">
-        <h4>You submitted successfully!</h4>
-        <button class="btn btn-success" (click)="newTask()">Crear otra tarea</button>
-        <button class="btn btn-success" routerLink="/tasks/{{ areaName }}">Volver</button>
+
+      <div class="form-group">
+        <label for="description">Descripción: </label>
+        <textarea class="form-control" id="Description" required [(ngModel)]="task.Description" name="Description"
+          rows="10" cols="38"></textarea>
       </div>
+
+      <div class="form-group">
+        <label for="status">Estado: </label>
+        <select [(ngModel)]="task.Status">
+          <option [value]="status.StatusName" *ngFor="let status of statuses">{{ status.StatusName }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="workers">Trabajadores asignados: </label>
+        <select [(ngModel)]="task.Workers">
+          <option [value]="worker.WorkerName" *ngFor="let worker of workers">{{ worker.WorkerName }}</option>
+        </select>
+      </div>
+
+      <button (click)="saveTask()" class="btn btn-success">Crear</button>
+      <button class="badge badge-warning" routerLink="/tasks/{{ areaName }}">
+        Volver
+      </button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Se ha creado la tarea correctamente</h4>
+      <button class="btn btn-success" (click)="newTask()">Crear otra tarea</button>
+      <button class="btn btn-success" routerLink="/tasks/{{ areaName }}">Volver</button>
     </div>
   </div>
+</div>

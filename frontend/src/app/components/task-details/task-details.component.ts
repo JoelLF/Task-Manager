@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { WorkerService } from 'src/app/services/worker.service';
+import { StatusService } from 'src/app/services/status.service';
 
 @Component({
   selector: 'app-task-details',
@@ -11,15 +13,45 @@ export class TaskDetailsComponent implements OnInit {
 
   currentTask = null;
   message = '';
+  workers: any; 
+  statuses: any; 
 
   constructor(
     private taskService: TaskService,
+    private workerService: WorkerService,
+    private statusService: StatusService,
     private route: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
     this.message = '';
     this.getTask(this.route.snapshot.paramMap.get('id'));
+    this.retrieveWorkers();
+    this.retrieveStatus();
+  }
+
+  retrieveStatus(): void {
+    this.statusService.getAll()
+      .subscribe(
+        data => {
+          this.statuses = data;
+          console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
+  }
+
+  retrieveWorkers(): void {
+    this.workerService.getAll()
+      .subscribe(
+        data => {
+          this.workers = data;
+          console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
   }
 
   getTask(id): void {
@@ -39,7 +71,7 @@ export class TaskDetailsComponent implements OnInit {
       .subscribe(
         response => {
           console.log(response);
-          this.message = 'The tutorial was updated successfully!';
+          this.message = 'Se ha actualizado la tarea correctamente';
         },
         error => {
           console.log(error);
@@ -47,11 +79,12 @@ export class TaskDetailsComponent implements OnInit {
   }
 
   deleteTask(): void {
+    const areaName = this.currentTask.AreaName;
     this.taskService.delete(this.currentTask.id)
       .subscribe(
         response => {
           console.log(response);
-          this.router.navigate(['/tasks']);
+          this.router.navigate(['tasks/', areaName]);
         },
         error => {
           console.log(error);

@@ -1,69 +1,49 @@
 <div style="width: 400px; margin: auto;">
-    <div *ngIf="currentTask" class="edit-form">
-      <h4>Tarea</h4>
-      <form>
-        <div class="form-group">
-            <label for="title">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="TaskName"
-              required
-              [(ngModel)]="currentTask.TaskName"
-              name="TaskName"
-            />
-          </div>
-    
-          <div class="form-group">
-            <label for="description">Description</label>
-            <input
-              class="form-control"
-              id="Description"
-              required
-              [(ngModel)]="currentTask.Description"
-              name="Description"
-            />
-          </div>
-  
-          <div class="form-group">
-              <label for="status">Status</label>
-              <input
-                class="form-control"
-                id="Status"
-                required
-                [(ngModel)]="currentTask.Status"
-                name="Status"
-              />
-            </div>
-  
-            <div class="form-group">
-              <label for="workers">Workers</label>
-              <input
-                class="form-control"
-                id="Workers"
-                required
-                [(ngModel)]="currentTask.Workers"
-                name="Workers"
-              />
-            </div>
-      </form>
-  
-      <button class="badge badge-danger mr-2" (click)="deleteTask()">
-        Delete
-      </button>
-  
-      <button
-        type="submit"
-        class="badge badge-success"
-        (click)="updateTask()"
-      >
-        Update
-      </button>
-      <p>{{ message }}</p>
-    </div>
-  
-    <div *ngIf="!currentTask">
-      <br />
-      <p>Cannot access this Tutorial...</p>
-    </div>
+  <div *ngIf="currentTask" class="edit-form">
+    <h4>Tarea</h4>
+    <form>
+      <div class="form-group">
+        <label for="TaskName">Nombre: </label>
+        <input type="text" class="form-control" id="TaskName" required [(ngModel)]="currentTask.TaskName"
+          name="TaskName" />
+      </div>
+
+      <div class="form-group">
+        <label for="Description">Descripción: </label>
+        <textarea class="form-control" id="Description" required [(ngModel)]="currentTask.Description"
+          name="Description" rows="10" cols="38"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="Status">Estado: </label>
+        <select id="Status" required [(ngModel)]="currentTask.Status" [ngModelOptions]="{standalone: true}">
+          <option [value]="status.StatusName" *ngFor="let status of statuses">{{ status.StatusName }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="Workers">Trabajadores asignados: </label>
+        <select id="Workers" required [(ngModel)]="currentTask.Workers" [ngModelOptions]="{standalone: true}">
+          <option [value]="worker.WorkerName" *ngFor="let worker of workers">{{ worker.WorkerName }}</option>
+        </select>
+      </div>
+    </form>
+
+    <button class="badge badge-danger mr-2" (click)="deleteTask()">
+      Eliminar tarea
+    </button>
+
+    <button type="submit" class="badge badge-success" (click)="updateTask()">
+      Actualizar tarea
+    </button>
+    <button class="badge badge-warning" routerLink="/tasks/{{ currentTask.AreaName }}">
+      Volver
+    </button>
+    <p>{{ message }}</p>
   </div>
+
+  <div *ngIf="!currentTask">
+    <br />
+    <p>Ha ocurrido un error accediento a esta tarea</p>
+  </div>
+</div>
