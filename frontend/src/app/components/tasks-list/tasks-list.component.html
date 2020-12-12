@@ -4,23 +4,29 @@
   <div class="col-md-6">
     <h4>Listado de tareas del área: {{ AreaName }}</h4>
 
-    <button routerLink="/add/{{ AreaName }}" class="nav-link">
-      Añadir tarea
-    </button>
-
-    <button class="badge badge-warning" routerLink="/area">
-      Volver
-    </button>
-
     <ul class="list-group">
       <li class="list-group-item" *ngFor="let task of selectedTasks; let i = index" [class.active]="i == currentIndex"
         (click)="setActiveTask(task, i)">
         {{ task.TaskName }}
       </li>
     </ul>
+
+    <p></p>
+
+    <button routerLink="/add/{{ AreaName }}" class="btn btn-primary">
+      Añadir tarea
+    </button>
+
+    <button class="btn btn-secondary" routerLink="/area">
+      Volver
+    </button>
+    <p></p>
   </div>
+
   <div class="col-md-6">
     <div *ngIf="currentTask">
+      <ul>
+      <li class="list-group-item">
       <h4>Tarea</h4>
       <div>
         <label><strong>Nombre: </strong></label> {{ currentTask.TaskName }}
@@ -34,7 +40,7 @@
         {{ currentTask.Status }}
       </div>
       <div>
-        <label><strong>Trabajador/es asignados: </strong></label>
+        <label><strong>Trabajador asignado: </strong></label>
         {{ currentTask.Workers }}
       </div>
       <div hidden id="area">
@@ -42,9 +48,11 @@
         {{ currentTask.AreaName }}
       </div>
 
-      <button class="badge badge-warning" routerLink="/tasks/edit/{{ currentTask.id }}">
+      <button class="btn btn-primary" routerLink="/tasks/edit/{{ currentTask.id }}">
         Modificar
       </button>
+    </li>
+    </ul>
     </div>
 
     <div *ngIf="!currentTask">

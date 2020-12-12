@@ -13,8 +13,8 @@ export class TaskDetailsComponent implements OnInit {
 
   currentTask = null;
   message = '';
-  workers: any; 
-  statuses: any; 
+  workers: any;
+  statuses: any;
 
   constructor(
     private taskService: TaskService,

@@ -15,7 +15,7 @@ export class AddTaskComponent implements OnInit {
   areaName = this.route.snapshot.paramMap.get('AreaName');
   item = "Pendiente";
   workers: any;
-  statuses: any; 
+  statuses: any;
 
   task = {
     TaskName: '',

@@ -20,22 +20,20 @@
       </div>
 
       <div class="form-group">
-        <label for="workers">Trabajadores asignados: </label>
+        <label for="workers">Trabajador asignado: </label>
         <select [(ngModel)]="task.Workers">
           <option [value]="worker.WorkerName" *ngFor="let worker of workers">{{ worker.WorkerName }}</option>
         </select>
       </div>
 
       <button (click)="saveTask()" class="btn btn-success">Crear</button>
-      <button class="badge badge-warning" routerLink="/tasks/{{ areaName }}">
-        Volver
-      </button>
+      <button class="btn btn-secondary" routerLink="/tasks/{{ areaName }}">Volver</button>
     </div>
 
     <div *ngIf="submitted">
       <h4>Se ha creado la tarea correctamente</h4>
       <button class="btn btn-success" (click)="newTask()">Crear otra tarea</button>
-      <button class="btn btn-success" routerLink="/tasks/{{ areaName }}">Volver</button>
+      <button class="btn btn-secondary" routerLink="/tasks/{{ areaName }}">Volver</button>
     </div>
   </div>
 </div>
