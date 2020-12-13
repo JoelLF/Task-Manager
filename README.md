@@ -3,6 +3,7 @@
 This task manager is a school project with the intention of keeping track of all the tasks from the ITC company with the following technologies:
 
 Frontend: Angular
+<p></p>
 Backend: NodeJS, MySQL(DB), Sequelize(ORM)
 
 ## Installation
