@@ -1,17 +1,31 @@
-<div style="width: 400px; margin: auto;">
+<div style="margin: auto;">
   <div *ngIf="currentTask" class="edit-form">
     <h4>Tarea</h4>
-    <form>
+    <form [formGroup]="editForm" novalidate>
       <div class="form-group">
         <label for="TaskName">Nombre: </label>
         <input type="text" class="form-control" id="TaskName" required [(ngModel)]="currentTask.TaskName"
-          name="TaskName" />
+          formControlName="TaskName" />
+      </div>
+      <div
+        *ngIf="editForm.controls['TaskName'].invalid && (editForm.controls['TaskName'].dirty || editForm.controls['TaskName'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="editForm.controls['TaskName'].errors.required">
+          Es necesario poner un nombre a la tarea.
+        </div>
       </div>
 
       <div class="form-group">
         <label for="Description">Descripción: </label>
         <textarea class="form-control" id="Description" required [(ngModel)]="currentTask.Description"
-          name="Description" rows="10" cols="38"></textarea>
+          formControlName="Description" rows="10" cols="38"></textarea>
+      </div>
+      <div
+        *ngIf="editForm.controls['Description'].invalid && (editForm.controls['Description'].dirty || editForm.controls['Description'].touched)"
+        class="alert alert-danger">
+        <div *ngIf="editForm.controls['Description'].errors.required">
+          Es necesario añadir una descripción a la tarea.
+        </div>
       </div>
 
       <div class="form-group">
@@ -24,7 +38,7 @@
       </div>
 
       <div class="form-group">
-        <label for="Workers">Trabajadores asignados: </label>
+        <label for="Workers">Trabajador asignado: </label>
         <p>
           <select id="Workers" required [(ngModel)]="currentTask.Workers" [ngModelOptions]="{standalone: true}">
             <option [value]="worker.WorkerName" *ngFor="let worker of workers">{{ worker.WorkerName }}</option>
@@ -33,17 +47,29 @@
       </div>
     </form>
 
-    <button type="submit" class="btn btn-success" (click)="updateTask()">
-      Actualizar tarea
-    </button>
+    <a *ngIf="!editForm.invalid">
+      <button type="submit" class="btn btn-success" (click)="updateTask()">
+        Actualizar tarea
+      </button>
+    </a>
+
+
+    <a *ngIf="editForm.invalid">
+      <button type="submit" class="btn btn-success"
+        [disabled]="editForm.pristine || editForm.invalid">
+        Actualizar tarea
+      </button>
+    </a>
 
     <button class="btn btn-danger" (click)="deleteTask()">
       Eliminar tarea
     </button>
 
+
     <button class="btn btn-secondary" routerLink="/tasks/{{ currentTask.AreaName }}">
       Volver
     </button>
+    <p></p>
     <p>{{ message }}</p>
   </div>
 

@@ -8,8 +8,10 @@ import { TaskDetailsComponent } from './components/task-details/task-details.com
 import { TasksListComponent } from './components/tasks-list/tasks-list.component';
 
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AreaListComponent } from './components/area-list/area-list.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,13 +19,15 @@ import { AreaListComponent } from './components/area-list/area-list.component';
     AddTaskComponent,
     TaskDetailsComponent,
     TasksListComponent,
-    AreaListComponent
+    AreaListComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

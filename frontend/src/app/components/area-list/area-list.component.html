@@ -2,20 +2,19 @@
 
   <h4>Áreas ITC</h4>
   <ul class="list-group list-group-horizontal-xl">
-    <a class="list-group-item text-center" *ngFor="let area of area; let i = index" [class.active]="i == currentIndex"
+    <a class="text-center" *ngFor="let area of area; let i = index" [class.active]="i == currentIndex"
       (click)="setActiveArea(area, i)">
-      <img class="img-fluid" src="../../../assets/icono_departamento_{{ area.id }}.png " height="30%" width="45%">
+      <img class="img-fluid" src="../../../assets/icono_departamento_{{ area.id }}.png " height="70%" width="70%">
       <p></p>
-      <p class="text-center">{{ area.AreaName }}</p>
-      
+      <p class="text-center">{{ area.AreaName }}</p>     
     </a>
   </ul>
 
   <div class="col-md-6">
     <p></p>
-    <div *ngIf="currentArea" class="d-flex justify-content-center">
-      <ul>
-        <li class="list-group-item">
+    <div *ngIf="currentArea">
+      <ul class="list-group">
+        <li class="list-group-item text-center">
           <h4>Área seleccionada: </h4>
           <div>
             <label><strong>Nombre: </strong></label> {{ currentArea.AreaName }}
@@ -28,6 +27,7 @@
             <label><strong>Coordinador:</strong></label>
             {{ currentArea.Coordinator }}
           </div>
+          <p></p>
           <button class="btn btn-primary" routerLink="/tasks/{{ currentArea.AreaName }}">
             Ver listado de tareas para esta área
           </button>
@@ -36,7 +36,7 @@
     </div>
 
 
-    <div *ngIf="!currentArea">
+    <div *ngIf="!currentArea" class="text-center">
       <br />
       <p>Seleccione un área para consultar más información</p>
     </div>

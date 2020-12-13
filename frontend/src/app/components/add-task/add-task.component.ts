@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { StatusService } from 'src/app/services/status.service';
 import { TaskService } from 'src/app/services/task.service';
@@ -13,7 +14,6 @@ import { WorkerService } from 'src/app/services/worker.service';
 export class AddTaskComponent implements OnInit {
 
   areaName = this.route.snapshot.paramMap.get('AreaName');
-  item = "Pendiente";
   workers: any;
   statuses: any;
 
@@ -26,16 +26,31 @@ export class AddTaskComponent implements OnInit {
   };
   submitted = false;
 
+  addForm: FormGroup;
+
   constructor(private taskService: TaskService,
     private workerService: WorkerService,
     private statusService: StatusService,
     private route: ActivatedRoute,
-    private router: Router) { }
+    private router: Router,
+    private fb: FormBuilder) { }
 
   ngOnInit(): void {
     this.retrieveWorkers();
     this.retrieveStatus();
+    this.createForm()
   }
+
+  createForm() {
+    this.addForm = this.fb.group({
+       TaskName: ['', Validators.required ],
+       Description: ['', Validators.required ],
+       Status: ['', Validators.required ],
+       Workers: ['', Validators.required ],
+
+    });
+  }
+
 
   retrieveStatus(): void {
     this.statusService.getAll()

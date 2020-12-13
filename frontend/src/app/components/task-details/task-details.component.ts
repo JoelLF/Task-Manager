@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { TaskService } from 'src/app/services/task.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { WorkerService } from 'src/app/services/worker.service';
@@ -15,19 +16,29 @@ export class TaskDetailsComponent implements OnInit {
   message = '';
   workers: any;
   statuses: any;
+  editForm: FormGroup
 
   constructor(
     private taskService: TaskService,
     private workerService: WorkerService,
     private statusService: StatusService,
     private route: ActivatedRoute,
-    private router: Router) { }
+    private router: Router,
+    private fb: FormBuilder) { }
 
   ngOnInit(): void {
     this.message = '';
     this.getTask(this.route.snapshot.paramMap.get('id'));
     this.retrieveWorkers();
     this.retrieveStatus();
+    this.createForm();
+  }
+
+  createForm() {
+    this.editForm = this.fb.group({
+       TaskName: ['', Validators.required ],
+       Description: ['', Validators.required ]
+    });
   }
 
   retrieveStatus(): void {
