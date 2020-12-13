@@ -29,7 +29,8 @@ npm install npm@latest -g
 git clone https://github.com/JoelLF/Task-Manager
 ```
 
-Using the command-line navigate towards the backend and frontend folder respectively and install the required modules
+<li>Using the command-line navigate towards the backend and frontend folder respectively and install the required modules
+</li>
 
 ```bash
 npm install
