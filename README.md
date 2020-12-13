@@ -2,8 +2,8 @@
 
 This task manager is a school project with the intention of keeping track of all the tasks from the ITC company with the following technologies:
 
-Frontend: Angular (mxGraph)
-Backend: NodeJS, MySQL(BD), Sequelize(ORM)
+Frontend: Angular
+Backend: NodeJS, MySQL(DB), Sequelize(ORM)
 
 ## Installation
 
