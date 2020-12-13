@@ -18,7 +18,7 @@
         <div class="form-group">
           <label for="description">Descripción: </label>
           <textarea class="form-control" id="Description" required [(ngModel)]="task.Description"
-            formControlName="Description" rows="10" cols="30"></textarea>
+            formControlName="Description" rows="10"></textarea>
         </div>
         <div
           *ngIf="addForm.controls['Description'].invalid && (addForm.controls['Description'].dirty || addForm.controls['Description'].touched)"
@@ -63,8 +63,10 @@
         <button class="btn btn-secondary" routerLink="/tasks/{{ areaName }}">Volver</button>
       </div>
 
-      <div *ngIf="submitted">
+      <div *ngIf="submitted" class="alert alert-primary">
         <h4>Se ha creado la tarea correctamente</h4>
+      </div>
+      <div *ngIf="submitted">
         <button class="btn btn-success" (click)="newTask()">Crear otra tarea</button>
         <button class="btn btn-secondary" routerLink="/tasks/{{ areaName }}">Volver</button>
       </div>

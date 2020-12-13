@@ -18,7 +18,7 @@
       <div class="form-group">
         <label for="Description">Descripción: </label>
         <textarea class="form-control" id="Description" required [(ngModel)]="currentTask.Description"
-          formControlName="Description" rows="10" cols="38"></textarea>
+          formControlName="Description" rows="10"></textarea>
       </div>
       <div
         *ngIf="editForm.controls['Description'].invalid && (editForm.controls['Description'].dirty || editForm.controls['Description'].touched)"
@@ -55,8 +55,7 @@
 
 
     <a *ngIf="editForm.invalid">
-      <button type="submit" class="btn btn-success"
-        [disabled]="editForm.pristine || editForm.invalid">
+      <button type="submit" class="btn btn-success" [disabled]="editForm.pristine || editForm.invalid">
         Actualizar tarea
       </button>
     </a>
@@ -70,11 +69,13 @@
       Volver
     </button>
     <p></p>
-    <p>{{ message }}</p>
+    <div *ngIf="message != ''">
+      <p class="alert alert-primary">{{ message }}</p>
+    </div>
   </div>
 
   <div *ngIf="!currentTask">
     <br />
-    <p>Ha ocurrido un error accediento a esta tarea</p>
+    <p class="alert alert-danger">Ha ocurrido un error accediento a esta tarea</p>
   </div>
 </div>
