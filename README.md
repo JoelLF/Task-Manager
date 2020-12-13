@@ -6,17 +6,32 @@ Frontend: Angular
 Backend: NodeJS, MySQL(DB), Sequelize(ORM)
 
 ## Installation
-
-Clone this git repository
+Using the command-line make sure you install
+<ul>
+<li>npm
+</li>
+  
+```bash
+npm install npm@latest -g
+```
+<li>Angular CLI
+</li>
 
 ```bash
-git clone https://github.com/JoelLF
+ npm install @angular/cli -g
 ```
 
-Using the command-line navigate towards the backend folder and install the required modules
+<li>Using the command-line, navigate to the directory were you want to download the project and clone this repository
+</li>
 
 ```bash
-npm install express sequelize mysql2 body-parser cors --save
+git clone https://github.com/JoelLF/Task-Manager
+```
+
+Using the command-line navigate towards the backend and frontend folder respectively and install the required modules
+
+```bash
+npm install
 ```
 
 ## Documentation (Spanish)
