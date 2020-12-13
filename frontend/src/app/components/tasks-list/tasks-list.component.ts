@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { TokenStorageService } from 'src/app/services/token-storage.service';
 
 @Component({
   selector: 'app-tasks-list',
@@ -14,16 +15,21 @@ export class TasksListComponent implements OnInit {
   AreaName = this.route.snapshot.paramMap.get('AreaName');
   currentTask = null;
   currentIndex = -1;
+  isLoggedIn = false;
   title = '';
   message = '';
 
   constructor(private taskService: TaskService,
     private route: ActivatedRoute,
+    private tokenStorage: TokenStorageService,
     private router: Router) { }
 
   ngOnInit(): void {
     this.message = '';
     this.getTask(this.AreaName);
+    if (this.tokenStorage.getToken()) {
+      this.isLoggedIn = true;
+    }
   }
 
   getTask(AreaName): void {

@@ -1,0 +1,27 @@
+
+<div class="container" *ngIf="currentUser; else loggedOut">
+    <header class="jumbotron">
+      <h3>
+        Usuario: <strong>{{ currentUser.username }}</strong>
+      </h3>
+    </header>
+    <strong>Rol:</strong>
+    <ul class="list-group">
+      <li class="list-group-item"*ngFor="let role of currentUser.roles">
+        {{ role }}
+      </li>
+      <p></p>
+      <a class="text-center">
+        <button class="btn btn-primary" routerLink="/area">
+            Acceder a la lista de áreas
+        </button>
+    </a>
+    </ul>
+
+  </div>
+  
+  <ng-template #loggedOut>
+    <div class="alert alert-danger">
+        Por favor, inicie sesión
+    </div>
+  </ng-template>

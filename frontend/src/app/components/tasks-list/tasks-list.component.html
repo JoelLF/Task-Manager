@@ -8,17 +8,11 @@
         {{ task.TaskName }}
       </a>
     </ul>
-
-    <p></p>
-
-    <button routerLink="/add/{{ AreaName }}" class="btn btn-primary">
-      Añadir tarea
-    </button>
-
-    <button class="btn btn-secondary" routerLink="/area">
-      Volver
-    </button>
-    <p></p>
+    <div *ngIf="selectedTasks.length == 0">
+      <br />
+      <p class="alert alert-warning">No existen tareas para esta área
+      <p>
+    </div>
   </div>
 
   <div class="col-md-6">
@@ -46,7 +40,7 @@
             {{ currentTask.AreaName }}
           </div>
 
-          <button class="btn btn-primary" routerLink="/tasks/edit/{{ currentTask.id }}">
+          <button class="btn btn-primary" routerLink="/tasks/edit/{{ currentTask.id }}" [disabled]="!isLoggedIn">
             Modificar
           </button>
         </li>
@@ -58,5 +52,13 @@
       <p class="alert alert-primary">Seleccione una tarea para consultar más información
       <p>
     </div>
+    <p></p>
+    <button routerLink="/add/{{ AreaName }}" class="btn btn-primary" [disabled]="!isLoggedIn">
+      Añadir tarea
+    </button>
+
+    <button class="btn btn-secondary" routerLink="/area">
+      Volver
+    </button>
   </div>
 </div>

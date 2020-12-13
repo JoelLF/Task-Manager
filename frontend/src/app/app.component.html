@@ -4,6 +4,14 @@
     <a href="#" class="navbar-brand">Inicio</a>
     <div class="navbar-nav mr-auto">
     </div>
+    <ul class="navbar-nav ml-auto" *ngIf="isLoggedIn">
+      <li class="nav-item">
+        <a href="/profile" class="navbar-brand" routerLink="profile">{{ username }}</a>
+      </li>
+      <li class="nav-item">
+        <a href class="navbar-brand" (click)="logout()">Desconectar</a>
+      </li>
+    </ul>
   </nav>
 
   <div class="container mt-3">

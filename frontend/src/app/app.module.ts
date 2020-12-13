@@ -12,6 +12,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AreaListComponent } from './components/area-list/area-list.component';
 import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+
+import { authInterceptorProviders } from './helpers/auth.interceptor';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,9 @@ import { HomeComponent } from './components/home/home.component';
     TaskDetailsComponent,
     TasksListComponent,
     AreaListComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,7 @@ import { HomeComponent } from './components/home/home.component';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
