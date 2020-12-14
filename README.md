@@ -11,12 +11,18 @@
 ## General Info
 
 This task manager is a school project with the intention of aiding to manage all the tasks found on different areas of ITC.
+View mockup for this application: https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==
 
 ## Technologies
 
-Frontend: Angular
-<p></p>
-Backend: NodeJS, MySQL(DB), Sequelize(ORM)
+Frontend:
+* [Angular](https://angular.io/): Version 9.0.7
++ [Bootstrap](https://getbootstrap.com/)
+***
+Backend:
+* [NodeJS](https://nodejs.org/es/): Version 13.11.0
+* [Sequelize ORM](https://sequelize.org/): v6
++ [MySQL](https://www.mysql.com/): Version 8.0.21
 
 ## Installation
 Using the command-line make sure you install:
@@ -33,6 +39,8 @@ npm install npm@latest -g
 ```bash
  npm install @angular/cli -g
 ```
+
+***
 
 Once you've finished installing them:
 
