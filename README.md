@@ -23,7 +23,7 @@ This task manager is a school project with the intention of aiding to manage all
 ER diagram for the Task Manager
 <img src="docs/relational_diagram.png"></img>
 <p>Relational diagram for the Task Manager</p>
-For an in-depth explanation on the data model please refer to the document found at: 
+For an in-depth explanation (in spanish) on the data model please refer to the document found at: 
 <p>https://github.com/JoelLF/Task-Manager/blob/master/docs/data_explanation.pdf</p>
 
 ***
