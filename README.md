@@ -67,6 +67,13 @@ To start using this application:
 <li> Import the tables found in the db folder into your MySQL server
 </li>
 
+<li> Change MySQL user and password to your own at
+</li>
+
+```bash
+backend/config/db.config.js
+```
+
 <li>To start the backend server, use the command-line navigate towards the backend folder and use the command:
 </li>
 
