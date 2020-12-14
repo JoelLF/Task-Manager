@@ -1,10 +1,12 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Diagrams](#diagrams)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Collaboration](#collaboration)
+3. [User requirements](#user-requirements)
+4. [Use Cases](#use-cases)
+5. [Interface](#interface)
+6. [Technologies](#technologies)
+7. [Installation](#installation)
+
 
 
 # Task Manager
@@ -12,7 +14,6 @@
 
 This task manager is a school project with the intention of aiding to manage all the tasks found on different areas of ITC.
 <p></p>
-View mockup for this application: https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==
 
 ***
 
@@ -22,7 +23,35 @@ View mockup for this application: https://www.fluidui.com/editor/live/preview/cF
 ER diagram for the Task Manager
 <img src="docs/relational_diagram.png"></img>
 <p>Relational diagram for the Task Manager</p>
-Relational diagram for the Task Manager
+For an in-depth explanation on the data model please refer to the document found at: 
+<p>https://github.com/JoelLF/Task-Manager/blob/master/docs/data_explanation.pdf</p>
+
+***
+
+## User Requirements
+
+For user requirements please refer to the document found at: 
+<p>https://github.com/JoelLF/Task-Manager/blob/master/docs/user_requirements.pdf</p>
+
+***
+
+## Use Cases
+
+<img src="docs/use_case.png"></img>
+<p>Use cases diagram for the Task Manager</p>
+
+***
+
+## Interface
+### Initial design
+
+You can view a mockup for the interface of the Task Manager at: 
+<p>https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==</p>
+
+### Usability
+
+For an in-depth explanation on the Task Manager's usability please refer to the document found at: 
+<p>https://github.com/JoelLF/Task-Manager/blob/master/docs/usability.pdf</p>
 
 ## Technologies
 
