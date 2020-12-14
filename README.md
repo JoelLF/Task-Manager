@@ -136,14 +136,14 @@ backend/config/db.config.js
 
 To start using this application:
 
-<li>To start the backend server, use the command-line navigate towards the backend folder and use the command:
+<li>To start the backend server, use the command-line and navigate towards the backend folder, then use the command:
 </li>
 
 ```bash
 node server
 ```
 
-<li>To start the frontend server, use the command-line navigate towards the backend folder and use the command:
+<li>To start the frontend server, use the command-line and navigate towards the backend folder, then use the command:
 </li>
 
 ```bash
