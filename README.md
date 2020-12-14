@@ -50,7 +50,7 @@ You can view a mockup for the interface of the Task Manager at:
 
 ### Usability
 
-For an in-depth explanation on the Task Manager's usability please refer to the document found at: 
+For an in-depth explanation (in spanish) on the Task Manager's usability please refer to the document found at: 
 <p>https://github.com/JoelLF/Task-Manager/blob/master/docs/usability.pdf</p>
 
 ## Technologies
@@ -65,7 +65,7 @@ Backend:
 * [MySQL](https://www.mysql.com/): Version 8.0.21
 
 ## Installation
-Using the command-line make sure you install:
+Using the command-line install:
 
 <li>npm
 </li>
@@ -80,9 +80,35 @@ npm install npm@latest -g
  npm install @angular/cli -g
 ```
 
+Now install MySQL Workbench from:
+https://dev.mysql.com/downloads/workbench/
+
+Once MySQL Workbench is set up import the tables found on the db folder:
+
+<li> Create a new schema named "db_itc_task_manager"
+</li>
+<img src="docs/create.png"></img>
+
+<li> Start importing each table by selecting "Server" > "Data Import" on the top menu
+</li>
+<img src="docs/import1.png"></img>
+
+<li> Select "Import from Self-Contained File" and click on the [...] button to enter the route were you stored the db folder, then pick one table from the folder
+</li>
+<li> Click on the dropdown for "Target Schema" and select "db_itc_task_manager"
+</li>
+<img src="docs/import2.png"></img>
+
+<li> Click on "Import progress" and then "Start Import"
+</li>
+<img src="docs/import3.png"></img>
+
+<li> Once the import has finished repeat the process with the remaining tables
+</li>
+
 ***
 
-Once you've finished installing them:
+Once everything has been set up:
 
 <li>Using the command-line, navigate to the directory were you want to download the project and clone this repository
 </li>
@@ -98,12 +124,7 @@ git clone https://github.com/JoelLF/Task-Manager
 npm install
 ```
 
-***
-
-<li> Import the tables found in the db folder into your MySQL server
-</li>
-
-<li> Change MySQL user and password to your own at
+<li> Open the following file with a text editor and change the user and password to your credentials from MySQL
 </li>
 
 ```bash
@@ -131,6 +152,3 @@ ng serve --port 8081
 
 <li> You can now start using the application by accessing http://localhost:8081/ on your browser
 </li>
-
-## Collaboration
- 
