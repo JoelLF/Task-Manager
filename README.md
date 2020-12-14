@@ -4,7 +4,6 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Collaboration](#collaboration)
-6. [FAQs](#faqs)
 
 
 # Task Manager
@@ -18,12 +17,12 @@ View mockup for this application: https://www.fluidui.com/editor/live/preview/cF
 
 Frontend:
 * [Angular](https://angular.io/): Version 9.0.7
-+ [Bootstrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 ***
 Backend:
 * [NodeJS](https://nodejs.org/es/): Version 13.11.0
 * [Sequelize ORM](https://sequelize.org/): v6
-+ [MySQL](https://www.mysql.com/): Version 8.0.21
+* [MySQL](https://www.mysql.com/): Version 8.0.21
 
 ## Installation
 Using the command-line make sure you install:
