@@ -14,11 +14,14 @@ This task manager is a school project with the intention of aiding to manage all
 <p></p>
 View mockup for this application: https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==
 
-##Diagrams
+***
+
+## Diagrams
 
 <img src="docs/er.png"></img>
 ER diagram for the Task Manager
 <img src="docs/relational_diagram.png"></img>
+<p>Relational diagram for the Task Manager</p>
 Relational diagram for the Task Manager
 
 ## Technologies
