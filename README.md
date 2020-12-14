@@ -58,6 +58,8 @@ git clone https://github.com/JoelLF/Task-Manager
 npm install
 ```
 
+***
+
 <li> Import the tables found in the db folder into your MySQL server
 </li>
 
