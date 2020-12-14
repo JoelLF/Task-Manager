@@ -77,7 +77,7 @@ npm install npm@latest -g
 </li>
 
 ```bash
- npm install @angular/cli -g
+npm install @angular/cli -g
 ```
 
 Now install MySQL Workbench from:
@@ -150,5 +150,6 @@ node server
 ng serve --port 8081
 ```
 
-<li> You can now start using the application by accessing http://localhost:8081/ on your browser
-</li>
+You can now start using the application by accessing http://localhost:8081/ on your browser
+(note that all demo users from the imported table have '1234' as their passwords for login)
+
