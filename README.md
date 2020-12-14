@@ -58,11 +58,6 @@ git clone https://github.com/JoelLF/Task-Manager
 npm install
 ```
 
-
-## Usage
-
-To start using this application:
-
 <li> Import the tables found in the db folder into your MySQL server
 </li>
 
@@ -72,6 +67,11 @@ To start using this application:
 ```bash
 backend/config/db.config.js
 ```
+
+
+## Usage
+
+To start using this application:
 
 <li>To start the backend server, use the command-line navigate towards the backend folder and use the command:
 </li>
