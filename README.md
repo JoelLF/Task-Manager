@@ -11,6 +11,7 @@
 ## General Info
 
 This task manager is a school project with the intention of aiding to manage all the tasks found on different areas of ITC.
+<p></p>
 View mockup for this application: https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==
 
 ## Technologies
