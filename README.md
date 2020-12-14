@@ -1,5 +1,6 @@
 ## Table of Contents
 1. [General Info](#general-info)
+2. [Diagrams](#diagrams)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Usage](#usage)
@@ -12,6 +13,13 @@
 This task manager is a school project with the intention of aiding to manage all the tasks found on different areas of ITC.
 <p></p>
 View mockup for this application: https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==
+
+##Diagrams
+
+<img src="docs/er.png"></img>
+ER diagram for the Task Manager
+<img src="docs/relational_diagram.png"></img>
+Relational diagram for the Task Manager
 
 ## Technologies
 
