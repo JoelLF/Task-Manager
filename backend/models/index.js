@@ -30,12 +30,12 @@ db.role.belongsToMany(db.user, {
   through: "user_roles",
   foreignKey: "roleId",
   otherKey: "userId"
-}, { timestamps: false });
+});
 db.user.belongsToMany(db.role, {
   through: "user_roles",
   foreignKey: "userId",
   otherKey: "roleId"
-}, { timestamps: false });
+});
 
 db.ROLES = ["admin", "user"];
 

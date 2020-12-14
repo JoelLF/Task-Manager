@@ -36,8 +36,8 @@ export class TaskDetailsComponent implements OnInit {
 
   createForm() {
     this.editForm = this.fb.group({
-       TaskName: ['', Validators.required ],
-       Description: ['', Validators.required ]
+      TaskName: ['', Validators.required],
+      Description: ['', Validators.required]
     });
   }
 

@@ -1,12 +1,12 @@
 module.exports = (sequelize, Sequelize) => {
-    const Worker = sequelize.define("worker", {
+  const Worker = sequelize.define("worker", {
 
-      WorkerName: {
-        type: Sequelize.STRING
-      }
-    }, { timestamps: false });
+    WorkerName: {
+      type: Sequelize.STRING
+    }
+  }, { timestamps: false });
 
-    Worker.removeAttribute('id');
-  
-    return Worker;
-  };
+  Worker.removeAttribute('id');
+
+  return Worker;
+};

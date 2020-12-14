@@ -51,12 +51,12 @@
           </select>
         </div>
         <div
-        *ngIf="addForm.controls['Workers'].invalid && (addForm.controls['Workers'].dirty || addForm.controls['Workers'].touched)"
-        class="alert alert-danger">
-        <div *ngIf="addForm.controls['Workers'].errors.required">
-          Es necesario asignar un trabajador a la tarea.
+          *ngIf="addForm.controls['Workers'].invalid && (addForm.controls['Workers'].dirty || addForm.controls['Workers'].touched)"
+          class="alert alert-danger">
+          <div *ngIf="addForm.controls['Workers'].errors.required">
+            Es necesario asignar un trabajador a la tarea.
+          </div>
         </div>
-      </div>
 
         <button (click)="saveTask()" class="btn btn-success"
           [disabled]="addForm.pristine || addForm.invalid">Crear</button>
