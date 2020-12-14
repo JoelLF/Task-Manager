@@ -85,4 +85,3 @@ ng serve --port 8081
 
 ## Collaboration
  
-## FAQs
