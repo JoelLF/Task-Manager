@@ -11,14 +11,14 @@ exports.create = (req, res) => {
       return;
     }
   
-    // Create a Task
+
     const area = {
       AreaName: req.body.AreaName,
       Workers: req.body.Workers,
       Coordinator: req.body.Coordinator
     };
   
-    // Save Task in the database
+
     Area.create(area)
       .then(data => {
         res.send(data);
@@ -26,7 +26,7 @@ exports.create = (req, res) => {
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while creating the Task."
+            err.message || "Some error occurred while creating the Area."
         });
       });
   };
@@ -42,7 +42,7 @@ exports.create = (req, res) => {
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while retrieving tasks."
+            err.message || "Some error occurred while retrieving areas."
         });
       });
   };
@@ -56,7 +56,7 @@ exports.create = (req, res) => {
       })
       .catch(err => {
         res.status(500).send({
-          message: "Error retrieving Task with id=" + id
+          message: "Error retrieving Area with id=" + id
         });
       });
   };
@@ -70,17 +70,17 @@ exports.create = (req, res) => {
       .then(num => {
         if (num == 1) {
           res.send({
-            message: "Task was updated successfully."
+            message: "Area was updated successfully."
           });
         } else {
           res.send({
-            message: `Cannot update Task with id=${id}. Maybe Task was not found or req.body is empty!`
+            message: `Cannot update Area with id=${id}. Maybe Area was not found or req.body is empty!`
           });
         }
       })
       .catch(err => {
         res.status(500).send({
-          message: "Error updating Task with id=" + id
+          message: "Error updating Area with id=" + id
         });
       });
   };
@@ -94,17 +94,17 @@ exports.create = (req, res) => {
       .then(num => {
         if (num == 1) {
           res.send({
-            message: "Task was deleted successfully!"
+            message: "Area was deleted successfully!"
           });
         } else {
           res.send({
-            message: `Cannot delete Task with id=${id}. Maybe Task was not found!`
+            message: `Cannot delete Area with id=${id}. Maybe Area was not found!`
           });
         }
       })
       .catch(err => {
         res.status(500).send({
-          message: "Could not delete Task with id=" + id
+          message: "Could not delete Area with id=" + id
         });
       });
   };
@@ -115,12 +115,12 @@ exports.create = (req, res) => {
       truncate: false
     })
       .then(nums => {
-        res.send({ message: `${nums} Tasks were deleted successfully!` });
+        res.send({ message: `${nums} Areas were deleted successfully!` });
       })
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while removing all tasks."
+            err.message || "Some error occurred while removing all areas."
         });
       });
   };

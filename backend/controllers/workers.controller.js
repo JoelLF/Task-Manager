@@ -11,12 +11,12 @@ exports.create = (req, res) => {
       return;
     }
   
-    // Create a Task
+
     const worker = {
       WorkerName: req.body.WorkerName
     };
   
-    // Save Task in the database
+
     Worker.create(worker)
       .then(data => {
         res.send(data);
@@ -24,7 +24,7 @@ exports.create = (req, res) => {
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while creating the Task."
+            err.message || "Some error occurred while creating the Workers."
         });
       });
   };
@@ -40,7 +40,7 @@ exports.create = (req, res) => {
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while retrieving tasks."
+            err.message || "Some error occurred while retrieving workers."
         });
       });
   };
@@ -54,7 +54,7 @@ exports.create = (req, res) => {
       })
       .catch(err => {
         res.status(500).send({
-          message: "Error retrieving Task with id=" + id
+          message: "Error retrieving Worker with id=" + id
         });
       });
   };
@@ -68,17 +68,17 @@ exports.create = (req, res) => {
       .then(num => {
         if (num == 1) {
           res.send({
-            message: "Task was updated successfully."
+            message: "Worker was updated successfully."
           });
         } else {
           res.send({
-            message: `Cannot update Task with id=${id}. Maybe Task was not found or req.body is empty!`
+            message: `Cannot update Worker with id=${id}. Maybe Worker was not found or req.body is empty!`
           });
         }
       })
       .catch(err => {
         res.status(500).send({
-          message: "Error updating Task with id=" + id
+          message: "Error updating Worker with id=" + id
         });
       });
   };
@@ -92,17 +92,17 @@ exports.create = (req, res) => {
       .then(num => {
         if (num == 1) {
           res.send({
-            message: "Task was deleted successfully!"
+            message: "Worker was deleted successfully!"
           });
         } else {
           res.send({
-            message: `Cannot delete Task with id=${id}. Maybe Task was not found!`
+            message: `Cannot delete Worker with id=${id}. Maybe Worker was not found!`
           });
         }
       })
       .catch(err => {
         res.status(500).send({
-          message: "Could not delete Task with id=" + id
+          message: "Could not delete Worker with id=" + id
         });
       });
   };
@@ -113,12 +113,12 @@ exports.create = (req, res) => {
       truncate: false
     })
       .then(nums => {
-        res.send({ message: `${nums} Tasks were deleted successfully!` });
+        res.send({ message: `${nums} Workers were deleted successfully!` });
       })
       .catch(err => {
         res.status(500).send({
           message:
-            err.message || "Some error occurred while removing all tasks."
+            err.message || "Some error occurred while removing all Workers."
         });
       });
   };
