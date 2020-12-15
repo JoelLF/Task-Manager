@@ -120,7 +120,7 @@ git clone https://github.com/JoelLF/Task-Manager
 npm install
 ```
 
-<ul> Create the following files at backend/config
+<ul> Create the following files at backend/config:
 
 <li> auth.config.js
 </li>
