@@ -1,7 +1,7 @@
 module.exports = {
   HOST: "localhost",
   USER: "root",
-  PASSWORD: "joel123",
+  PASSWORD: "root",
   DB: "db_itc_task_manager",
   dialect: "mysql",
   pool: {
