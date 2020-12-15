@@ -49,11 +49,6 @@ For user requirements please refer to the document found at:
 You can view a mockup for the interface of the Task Manager at: 
 <p>https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==</p>
 
-### Usability
-
-For an in-depth explanation (in spanish) on the Task Manager's usability please refer to the document found at: 
-<p>https://github.com/JoelLF/Task-Manager/blob/master/docs/usability.pdf</p>
-
 ## Technologies
 
 Frontend:
