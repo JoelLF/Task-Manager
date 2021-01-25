@@ -1,0 +1,13 @@
+{
+    "shortid": "j689Sw4i3H",
+    "name": "load data",
+    "creationDate": {
+        "$$date": 1611594198910
+    },
+    "modificationDate": {
+        "$$date": 1611594580692
+    },
+    "_id": "v2PdsXF04p903xsW",
+    "$entitySet": "scripts",
+    "isGlobal": false
+}

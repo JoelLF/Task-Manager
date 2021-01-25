@@ -1,0 +1,112 @@
+2021-01-19T17:56:22.354Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:04:21.460Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:04:27.753Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:05:54.990Z - error: Error during processing request at http://localhost:5488/api/report/rkJTnK2ce, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:06:18.951Z - error: Error during processing request at http://localhost:5488/api/report/rkJTnK2ce, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:06:22.738Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:08:31.672Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:08:58.930Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:09:19.308Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:25:12.946Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T16:41:28.609Z - error: Rendering request 1 finished with error in 4180 ms
+2021-01-22T16:41:28.741Z - error: Error when processing render request 1 Failed to launch chrome!
+[0122/164128.296:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFFF2E41252+16183762]
+	ovly_debug_event [0x00007FFFF2E40832+16181170]
+	ovly_debug_event [0x00007FFFF2E53383+16257795]
+	ovly_debug_event [0x00007FFFF2E43386+16192262]
+	ovly_debug_event [0x00007FFFF2994B2E+11283118]
+	ovly_debug_event [0x00007FFFF2DBDB58+15645400]
+	ovly_debug_event [0x00007FFFF2DBDACD+15645261]
+	ovly_debug_event [0x00007FFFF2DE8F28+15822504]
+	ovly_debug_event [0x00007FFFF2DBD35E+15643358]
+	ovly_debug_event [0x00007FFFF2DE83E3+15819619]
+	ovly_debug_event [0x00007FFFF2DE82BB+15819323]
+	ovly_debug_event [0x00007FFFF2DE80F2+15818866]
+	ChromeMain [0x00007FFFF1ED11B6+286]
+	Ordinal0 [0x00007FF73761275F+10079]
+	Ordinal0 [0x00007FF73761182D+6189]
+	GetHandleVerifier [0x00007FF73771B7C2+697538]
+	BaseThreadInitThunk [0x00007FF856F07034+20]
+	RtlUserThreadStart [0x00007FF85703D0D1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0122/164128.296:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFFF2E41252+16183762]
+	ovly_debug_event [0x00007FFFF2E40832+16181170]
+	ovly_debug_event [0x00007FFFF2E53383+16257795]
+	ovly_debug_event [0x00007FFFF2E43386+16192262]
+	ovly_debug_event [0x00007FFFF2994B2E+11283118]
+	ovly_debug_event [0x00007FFFF2DBDB58+15645400]
+	ovly_debug_event [0x00007FFFF2DBDACD+15645261]
+	ovly_debug_event [0x00007FFFF2DE8F28+15822504]
+	ovly_debug_event [0x00007FFFF2DBD35E+15643358]
+	ovly_debug_event [0x00007FFFF2DE83E3+15819619]
+	ovly_debug_event [0x00007FFFF2DE82BB+15819323]
+	ovly_debug_event [0x00007FFFF2DE80F2+15818866]
+	ChromeMain [0x00007FFFF1ED11B6+286]
+	Ordinal0 [0x00007FF73761275F+10079]
+	Ordinal0 [0x00007FF73761182D+6189]
+	GetHandleVerifier [0x00007FF73771B7C2+697538]
+	BaseThreadInitThunk [0x00007FF856F07034+20]
+	RtlUserThreadStart [0x00007FF85703D0D1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2021-01-22T16:41:28.752Z - error: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-22T16:43:42.055Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T16:50:35.746Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T17:28:23.016Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-25T16:23:15.122Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:23:21.215Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:24:39.831Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:25:48.883Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=jSXoXD3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:25:55.811Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=jSXoXD3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:26:03.708Z - error: Rendering request 2 finished with error in 12 ms
+2021-01-25T16:26:03.709Z - error: Error when processing render request 2 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-assets\lib\assets.js:218:15)
+2021-01-25T16:26:03.710Z - error: Error during processing request at http://localhost:5488/api/report/invoice-main

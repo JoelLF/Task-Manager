@@ -16,4 +16,9 @@ export class ProfileComponent implements OnInit {
     this.currentUser = this.token.getUser();
   }
 
+  getReport(){
+    var reportUrl = "http://localhost:8080/api/reports"
+    window.open (reportUrl,'_blank');
+  }
+
 }

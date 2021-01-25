@@ -3,3 +3,6 @@
 
 /frontend/node_modules
 /froentend/.env
+
+/jsreport/node_modules
+/jsreport/.env

@@ -1,0 +1,1332 @@
+2021-01-18T17:26:21.609Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-18T17:26:21.614Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-18T17:26:21.620Z - info: Extensions location cache doesn't contain entry yet, crawling
+2021-01-18T17:26:24.241Z - info: Found 35 extensions
+2021-01-18T17:26:24.489Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-18T17:26:24.513Z - debug: Discovered 35 extensions
+2021-01-18T17:26:24.614Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-18T17:26:24.643Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-18T17:26:24.645Z - info: Using extension cli@2.2.5
+2021-01-18T17:26:24.654Z - info: Using extension debug@2.1.3
+2021-01-18T17:26:24.658Z - info: Using extension express@2.8.1
+2021-01-18T17:26:24.897Z - info: Using extension freeze@2.0.0
+2021-01-18T17:26:24.906Z - info: Using extension handlebars@2.1.0
+2021-01-18T17:26:24.913Z - info: Using extension import-export@2.1.1
+2021-01-18T17:26:24.982Z - info: Using extension jsrender@2.1.1
+2021-01-18T17:26:24.991Z - info: Using extension tags@2.5.0
+2021-01-18T17:26:24.997Z - info: Using extension templates@2.4.0
+2021-01-18T17:26:25.003Z - info: Using extension authorization@2.4.0
+2021-01-18T17:26:25.007Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-18T17:26:25.008Z - info: Using extension base@2.0.2
+2021-01-18T17:26:25.011Z - info: Using extension browser-client@2.2.2
+2021-01-18T17:26:25.023Z - info: Using extension child-templates@1.4.0
+2021-01-18T17:26:25.136Z - info: Using extension chrome-pdf@1.10.0
+2021-01-18T17:26:25.232Z - debug: Chrome strategy is dedicated-process
+2021-01-18T17:26:25.233Z - info: Using extension data@2.4.0
+2021-01-18T17:26:25.235Z - info: Using extension docx@2.9.0
+2021-01-18T17:26:25.243Z - info: Using extension fs-store@2.9.1
+2021-01-18T17:26:25.402Z - info: Using extension licensing@2.2.3
+2021-01-18T17:26:25.415Z - info: Using extension pdf-utils@1.10.1
+2021-01-18T17:26:25.513Z - info: Using extension pptx@0.7.0
+2021-01-18T17:26:25.517Z - info: Using extension reports@2.5.1
+2021-01-18T17:26:25.521Z - info: Using extension static-pdf@0.4.0
+2021-01-18T17:26:25.525Z - info: Using extension studio@2.10.1
+2021-01-18T17:26:25.594Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-18T17:26:25.605Z - info: Using extension text@2.0.0
+2021-01-18T17:26:25.607Z - info: Using extension version-control@1.6.0
+2021-01-18T17:26:25.704Z - info: Using extension assets@1.7.0
+2021-01-18T17:26:25.718Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-18T17:26:26.135Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-18T17:26:26.136Z - info: Using extension scheduling@2.5.0
+2021-01-18T17:26:26.187Z - info: Using extension scripts@2.6.0
+2021-01-18T17:26:26.193Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-18T17:26:26.194Z - info: Using extension xlsx@2.5.0
+2021-01-18T17:26:26.449Z - info: Using extension public-templates@2.2.0
+2021-01-18T17:26:26.452Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-18T17:26:26.453Z - info: Using extension resources@2.1.0
+2021-01-18T17:26:26.454Z - info: Using extension sample-template@2.6.1
+2021-01-18T17:26:26.457Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-18T17:26:26.458Z - info: Using fs provider for template store.
+2021-01-18T17:26:26.473Z - info: fs store is persisting using fs
+2021-01-18T17:26:26.476Z - info: fs store sync is disabled
+2021-01-18T17:26:26.480Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-18T17:26:26.492Z - info: fs store is loading data
+2021-01-18T17:26:26.513Z - info: fs store is initialized successfully
+2021-01-18T17:26:26.523Z - debug: studio default theme is: light
+2021-01-18T17:26:26.574Z - info: Creating default express app.
+2021-01-18T17:26:26.606Z - info: jsreport server successfully started on http port: 5488
+2021-01-18T17:26:26.609Z - info: Verifying license key free
+2021-01-18T17:26:26.610Z - info: Using free license
+2021-01-18T17:26:26.622Z - debug: Inserting samples
+2021-01-18T17:26:26.641Z - debug: Creating folder "samples" for sample entities
+2021-01-18T17:26:26.673Z - debug: Inserting sample entity Invoice (entitySet: folders)
+2021-01-18T17:26:26.727Z - debug: Inserting sample entity Sales (entitySet: folders)
+2021-01-18T17:26:26.761Z - debug: Inserting sample entity Orders (entitySet: folders)
+2021-01-18T17:26:26.789Z - debug: Inserting sample entity shared (entitySet: folders)
+2021-01-18T17:26:26.817Z - debug: Inserting sample entity invoice-data (entitySet: data)
+2021-01-18T17:26:26.838Z - debug: Inserting sample entity sales-data (entitySet: data)
+2021-01-18T17:26:26.862Z - debug: Inserting sample entity sales-main (entitySet: templates)
+2021-01-18T17:26:26.901Z - debug: Inserting sample entity invoice-main (entitySet: templates)
+2021-01-18T17:26:26.925Z - debug: Inserting sample entity orders-main (entitySet: templates)
+2021-01-18T17:26:26.956Z - debug: Inserting sample entity orders-header (entitySet: templates)
+2021-01-18T17:26:27.087Z - debug: Inserting sample entity invoice-styles.css (entitySet: assets)
+2021-01-18T17:26:27.185Z - debug: Inserting sample entity invoice-logo.png (entitySet: assets)
+2021-01-18T17:26:27.220Z - debug: Inserting sample entity sales-styles.css (entitySet: assets)
+2021-01-18T17:26:27.246Z - debug: Inserting sample entity global helpers.js (entitySet: assets)
+2021-01-18T17:26:27.272Z - debug: Inserting sample entity orders-styles.css (entitySet: assets)
+2021-01-18T17:26:27.299Z - debug: Inserting sample entity orders-script (entitySet: scripts)
+2021-01-18T17:26:27.325Z - info: reporter initialized
+2021-01-19T17:27:24.646Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T17:27:24.677Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T17:27:24.765Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T17:27:24.827Z - info: Found 35 extensions
+2021-01-19T17:27:27.839Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T17:27:27.864Z - debug: Discovered 35 extensions
+2021-01-19T17:27:27.967Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T17:27:27.997Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T17:27:27.998Z - info: Using extension cli@2.2.5
+2021-01-19T17:27:28.025Z - info: Using extension debug@2.1.3
+2021-01-19T17:27:28.062Z - info: Using extension express@2.8.1
+2021-01-19T17:27:32.277Z - info: Using extension freeze@2.0.0
+2021-01-19T17:27:32.302Z - info: Using extension handlebars@2.1.0
+2021-01-19T17:27:32.340Z - info: Using extension import-export@2.1.1
+2021-01-19T17:27:33.075Z - info: Using extension jsrender@2.1.1
+2021-01-19T17:27:33.084Z - info: Using extension tags@2.5.0
+2021-01-19T17:27:33.115Z - info: Using extension templates@2.4.0
+2021-01-19T17:27:33.141Z - info: Using extension authorization@2.4.0
+2021-01-19T17:27:33.602Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T17:27:33.602Z - info: Using extension base@2.0.2
+2021-01-19T17:27:33.616Z - info: Using extension browser-client@2.2.2
+2021-01-19T17:27:33.621Z - info: Using extension child-templates@1.4.0
+2021-01-19T17:27:33.674Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T17:27:35.131Z - debug: Chrome strategy is dedicated-process
+2021-01-19T17:27:35.140Z - info: Using extension data@2.4.0
+2021-01-19T17:27:35.176Z - info: Using extension docx@2.9.0
+2021-01-19T17:27:35.238Z - info: Using extension fs-store@2.9.1
+2021-01-19T17:27:38.127Z - info: Using extension licensing@2.2.3
+2021-01-19T17:27:38.158Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T17:27:39.074Z - info: Using extension pptx@0.7.0
+2021-01-19T17:27:39.109Z - info: Using extension reports@2.5.1
+2021-01-19T17:27:39.152Z - info: Using extension static-pdf@0.4.0
+2021-01-19T17:27:39.293Z - info: Using extension studio@2.10.1
+2021-01-19T17:27:39.787Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T17:27:39.796Z - info: Using extension text@2.0.0
+2021-01-19T17:27:39.824Z - info: Using extension version-control@1.6.0
+2021-01-19T17:27:41.587Z - info: Using extension assets@1.7.0
+2021-01-19T17:27:41.666Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T17:27:53.154Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T17:27:53.155Z - info: Using extension scheduling@2.5.0
+2021-01-19T17:27:53.598Z - info: Using extension scripts@2.6.0
+2021-01-19T17:27:53.621Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T17:27:53.643Z - info: Using extension xlsx@2.5.0
+2021-01-19T17:27:55.689Z - info: Using extension public-templates@2.2.0
+2021-01-19T17:27:55.712Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T17:27:55.713Z - info: Using extension resources@2.1.0
+2021-01-19T17:27:55.724Z - info: Using extension sample-template@2.6.1
+2021-01-19T17:27:55.745Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T17:27:55.746Z - info: Using fs provider for template store.
+2021-01-19T17:27:55.760Z - info: fs store is persisting using fs
+2021-01-19T17:27:55.764Z - info: fs store sync is disabled
+2021-01-19T17:27:55.766Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T17:27:55.779Z - info: fs store is loading data
+2021-01-19T17:27:55.939Z - info: fs store is initialized successfully
+2021-01-19T17:27:55.946Z - debug: studio default theme is: light
+2021-01-19T17:27:55.960Z - info: Creating default express app.
+2021-01-19T17:27:56.640Z - info: jsreport server successfully started on http port: 6000
+2021-01-19T17:27:56.649Z - info: Verifying license key free
+2021-01-19T17:27:56.651Z - info: Using free license
+2021-01-19T17:27:56.662Z - info: reporter initialized
+2021-01-19T17:28:56.942Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T17:28:56.950Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T17:28:56.966Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T17:28:56.986Z - info: Found 35 extensions
+2021-01-19T17:28:57.256Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T17:28:57.266Z - debug: Discovered 35 extensions
+2021-01-19T17:28:57.348Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T17:28:57.363Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T17:28:57.365Z - info: Using extension cli@2.2.5
+2021-01-19T17:28:57.372Z - info: Using extension debug@2.1.3
+2021-01-19T17:28:57.384Z - info: Using extension express@2.8.1
+2021-01-19T17:28:57.593Z - info: Using extension freeze@2.0.0
+2021-01-19T17:28:57.596Z - info: Using extension handlebars@2.1.0
+2021-01-19T17:28:57.606Z - info: Using extension import-export@2.1.1
+2021-01-19T17:28:57.672Z - info: Using extension jsrender@2.1.1
+2021-01-19T17:28:57.681Z - info: Using extension tags@2.5.0
+2021-01-19T17:28:57.687Z - info: Using extension templates@2.4.0
+2021-01-19T17:28:57.689Z - info: Using extension authorization@2.4.0
+2021-01-19T17:28:57.699Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T17:28:57.699Z - info: Using extension base@2.0.2
+2021-01-19T17:28:57.702Z - info: Using extension browser-client@2.2.2
+2021-01-19T17:28:57.714Z - info: Using extension child-templates@1.4.0
+2021-01-19T17:28:57.720Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T17:28:57.813Z - debug: Chrome strategy is dedicated-process
+2021-01-19T17:28:57.814Z - info: Using extension data@2.4.0
+2021-01-19T17:28:57.816Z - info: Using extension docx@2.9.0
+2021-01-19T17:28:57.822Z - info: Using extension fs-store@2.9.1
+2021-01-19T17:28:57.978Z - info: Using extension licensing@2.2.3
+2021-01-19T17:28:57.992Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T17:28:58.095Z - info: Using extension pptx@0.7.0
+2021-01-19T17:28:58.104Z - info: Using extension reports@2.5.1
+2021-01-19T17:28:58.110Z - info: Using extension static-pdf@0.4.0
+2021-01-19T17:28:58.113Z - info: Using extension studio@2.10.1
+2021-01-19T17:28:58.181Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T17:28:58.183Z - info: Using extension text@2.0.0
+2021-01-19T17:28:58.186Z - info: Using extension version-control@1.6.0
+2021-01-19T17:28:58.288Z - info: Using extension assets@1.7.0
+2021-01-19T17:28:58.304Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T17:28:58.664Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T17:28:58.665Z - info: Using extension scheduling@2.5.0
+2021-01-19T17:28:58.722Z - info: Using extension scripts@2.6.0
+2021-01-19T17:28:58.730Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T17:28:58.735Z - info: Using extension xlsx@2.5.0
+2021-01-19T17:28:58.917Z - info: Using extension public-templates@2.2.0
+2021-01-19T17:28:58.919Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T17:28:58.926Z - info: Using extension resources@2.1.0
+2021-01-19T17:28:58.928Z - info: Using extension sample-template@2.6.1
+2021-01-19T17:28:58.932Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T17:28:58.932Z - info: Using fs provider for template store.
+2021-01-19T17:28:58.938Z - info: fs store is persisting using fs
+2021-01-19T17:28:58.939Z - info: fs store sync is disabled
+2021-01-19T17:28:58.953Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T17:28:58.967Z - info: fs store is loading data
+2021-01-19T17:28:59.006Z - info: fs store is initialized successfully
+2021-01-19T17:28:59.013Z - debug: studio default theme is: light
+2021-01-19T17:28:59.021Z - info: Creating default express app.
+2021-01-19T17:28:59.054Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T17:28:59.056Z - info: Verifying license key free
+2021-01-19T17:28:59.064Z - info: Using free license
+2021-01-19T17:28:59.068Z - info: reporter initialized
+2021-01-19T17:32:35.561Z - debug: OData query on templates
+2021-01-19T17:32:35.586Z - debug: OData query on folders
+2021-01-19T17:32:35.589Z - debug: OData query on tags
+2021-01-19T17:32:35.592Z - debug: OData query on data
+2021-01-19T17:32:35.594Z - debug: OData query on assets
+2021-01-19T17:32:35.606Z - debug: OData query on scripts
+2021-01-19T17:32:35.612Z - debug: OData query on xlsxTemplates
+2021-01-19T17:32:35.627Z - debug: OData query on schedules
+2021-01-19T17:32:35.642Z - debug: OData query on settings
+2021-01-19T17:32:35.793Z - debug: OData query on templates
+2021-01-19T17:32:35.818Z - debug: OData query on settings
+2021-01-19T17:32:42.886Z - debug: OData query on templates
+2021-01-19T17:32:42.906Z - debug: OData query on folders
+2021-01-19T17:32:42.912Z - debug: OData query on tags
+2021-01-19T17:32:42.929Z - debug: OData query on data
+2021-01-19T17:32:42.931Z - debug: OData query on assets
+2021-01-19T17:32:42.942Z - debug: OData query on scripts
+2021-01-19T17:32:42.946Z - debug: OData query on xlsxTemplates
+2021-01-19T17:32:42.947Z - debug: OData query on schedules
+2021-01-19T17:32:42.978Z - debug: OData query on settings
+2021-01-19T17:32:43.150Z - debug: OData query on templates
+2021-01-19T17:32:43.182Z - debug: OData query on settings
+2021-01-19T17:33:48.145Z - debug: OData query on templates
+2021-01-19T17:33:52.748Z - debug: OData query on templates
+2021-01-19T17:33:52.798Z - debug: OData query on settings
+2021-01-19T17:33:55.734Z - info: Starting rendering request 1 (user: null)
+2021-01-19T17:33:55.736Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T17:33:55.746Z - debug: Data item not defined for this template.
+2021-01-19T17:33:55.747Z - debug: Resources not defined for this template.
+2021-01-19T17:33:55.750Z - debug: Base url not specified, skipping its injection.
+2021-01-19T17:33:55.756Z - debug: Replaced assets ["orders-styles.css"]
+2021-01-19T17:33:55.766Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T17:33:57.150Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T17:33:57.167Z - debug: Executing recipe chrome-pdf
+2021-01-19T17:34:06.618Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T17:34:16.373Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b87576fe-565f-4bd6-8bbc-04ddff3f9e1f-chrome-pdf.html
+2021-01-19T17:34:16.619Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b87576fe-565f-4bd6-8bbc-04ddff3f9e1f-chrome-pdf.html
+2021-01-19T17:34:17.003Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css
+2021-01-19T17:34:21.058Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css
+2021-01-19T17:34:21.160Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}}
+2021-01-19T17:34:21.837Z - info: Rendering request 1 finished in 26103 ms
+2021-01-19T17:34:21.838Z - debug: Skipping storing report.
+2021-01-19T17:34:29.137Z - debug: OData query on templates
+2021-01-19T17:34:31.098Z - info: Starting rendering request 2 (user: null)
+2021-01-19T17:34:31.100Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-19T17:34:31.110Z - debug: Data item not defined for this template.
+2021-01-19T17:34:31.112Z - debug: Resources not defined for this template.
+2021-01-19T17:34:31.114Z - debug: Executing script orders-script using dedicated-process strategy
+2021-01-19T17:34:34.463Z - warn: Rendering request 2 finished with error in 3363 ms
+2021-01-19T17:34:34.500Z - warn: Error when processing render request 2 Error while executing user script. require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }. 
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 | 
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+ Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }
+    at _require (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:2:15
+    at Script.runInContext (vm.js:142:20)
+    at VM.run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+2021-01-19T17:34:34.504Z - warn: Error during processing request at http://localhost:5488/api/report/orders-main
+2021-01-19T17:48:21.849Z - debug: OData query on data
+2021-01-19T17:48:25.657Z - debug: OData query on templates
+2021-01-19T17:48:28.560Z - debug: OData query on assets
+2021-01-19T17:56:22.353Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T17:58:07.352Z - debug: OData query on templates
+2021-01-19T17:58:18.417Z - info: Starting rendering request 3 (user: null)
+2021-01-19T17:58:18.419Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: false }
+2021-01-19T17:58:18.432Z - debug: Adding sample data B1lSTrt6NB
+2021-01-19T17:58:18.437Z - debug: Resources not defined for this template.
+2021-01-19T17:58:18.494Z - debug: Base url not specified, skipping its injection.
+2021-01-19T17:58:18.498Z - debug: Replaced assets ["sales-styles.css"]
+2021-01-19T17:58:18.499Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T17:58:20.924Z - warn: Rendering request 3 finished with error in 2508 ms
+2021-01-19T17:58:20.944Z - warn: Error when processing render request 3 Error while executing templating engine. require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }. 
+
+  229 | })(this)
+  230 | 
+> 231 | const moment = require('moment')
+      |                ^
+  232 | const rowOffset = 6
+  233 | 
+  234 | function nowStr () {
+
+ Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }
+    at _require (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine-helpers.js:231:16
+    at Script.runInContext (vm.js:142:20)
+    at VM.run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:236:9)
+    at process.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:881:12)
+2021-01-19T17:58:20.946Z - warn: Error during processing request at http://localhost:5488/templates/B1Q2SFTNr
+2021-01-19T18:01:25.673Z - debug: OData query on templates
+2021-01-19T18:01:30.056Z - info: Starting rendering request 4 (user: null)
+2021-01-19T18:01:30.071Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-01-19T18:01:30.076Z - debug: Adding sample data Sy5S19ncg
+2021-01-19T18:01:30.077Z - debug: Resources not defined for this template.
+2021-01-19T18:01:30.079Z - debug: Base url not specified, skipping its injection.
+2021-01-19T18:01:30.094Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-19T18:01:30.096Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-19T18:01:30.845Z - debug: Compiled template not found in the cache, compiling
+2021-01-19T18:01:30.846Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-19T18:01:30.857Z - debug: Executing recipe chrome-pdf
+2021-01-19T18:01:31.421Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-19T18:01:32.704Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/11e19194-d05e-4f5c-9e9d-072932c6109d-chrome-pdf.html
+2021-01-19T18:01:32.748Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/11e19194-d05e-4f5c-9e9d-072932c6109d-chrome-pdf.html
+2021-01-19T18:01:32.757Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-19T18:01:32.759Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-19T18:01:32.839Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-19T18:01:33.507Z - info: Rendering request 4 finished in 3452 ms
+2021-01-19T18:01:33.508Z - debug: Skipping storing report.
+2021-01-19T18:02:47.466Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T18:02:47.481Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T18:02:47.516Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T18:02:47.545Z - info: Found 35 extensions
+2021-01-19T18:02:50.527Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T18:02:50.552Z - debug: Discovered 35 extensions
+2021-01-19T18:02:50.712Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T18:02:50.770Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T18:02:50.773Z - info: Using extension cli@2.2.5
+2021-01-19T18:02:50.831Z - info: Using extension debug@2.1.3
+2021-01-19T18:02:50.913Z - info: Using extension express@2.8.1
+2021-01-19T18:02:53.576Z - info: Using extension freeze@2.0.0
+2021-01-19T18:02:53.587Z - info: Using extension handlebars@2.1.0
+2021-01-19T18:02:53.616Z - info: Using extension import-export@2.1.1
+2021-01-19T18:02:54.469Z - info: Using extension jsrender@2.1.1
+2021-01-19T18:02:54.484Z - info: Using extension tags@2.5.0
+2021-01-19T18:02:54.511Z - info: Using extension templates@2.4.0
+2021-01-19T18:02:54.543Z - info: Using extension authorization@2.4.0
+2021-01-19T18:02:54.710Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T18:02:54.719Z - info: Using extension base@2.0.2
+2021-01-19T18:02:54.724Z - info: Using extension browser-client@2.2.2
+2021-01-19T18:02:54.732Z - info: Using extension child-templates@1.4.0
+2021-01-19T18:02:54.772Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T18:02:56.086Z - debug: Chrome strategy is dedicated-process
+2021-01-19T18:02:56.087Z - info: Using extension data@2.4.0
+2021-01-19T18:02:56.101Z - info: Using extension docx@2.9.0
+2021-01-19T18:02:56.120Z - info: Using extension fs-store@2.9.1
+2021-01-19T18:02:57.868Z - info: Using extension licensing@2.2.3
+2021-01-19T18:02:57.901Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T18:02:58.701Z - info: Using extension pptx@0.7.0
+2021-01-19T18:02:58.738Z - info: Using extension reports@2.5.1
+2021-01-19T18:02:58.769Z - info: Using extension static-pdf@0.4.0
+2021-01-19T18:02:58.822Z - info: Using extension studio@2.10.1
+2021-01-19T18:02:59.320Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T18:02:59.335Z - info: Using extension text@2.0.0
+2021-01-19T18:02:59.352Z - info: Using extension version-control@1.6.0
+2021-01-19T18:03:00.738Z - info: Using extension assets@1.7.0
+2021-01-19T18:03:00.796Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T18:03:06.861Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T18:03:06.862Z - info: Using extension scheduling@2.5.0
+2021-01-19T18:03:07.939Z - info: Using extension scripts@2.6.0
+2021-01-19T18:03:07.962Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T18:03:07.998Z - info: Using extension xlsx@2.5.0
+2021-01-19T18:03:12.696Z - info: Using extension public-templates@2.2.0
+2021-01-19T18:03:12.730Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T18:03:12.730Z - info: Using extension resources@2.1.0
+2021-01-19T18:03:12.759Z - info: Using extension sample-template@2.6.1
+2021-01-19T18:03:12.791Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T18:03:12.791Z - info: Using fs provider for template store.
+2021-01-19T18:03:12.815Z - info: fs store is persisting using fs
+2021-01-19T18:03:12.818Z - info: fs store sync is disabled
+2021-01-19T18:03:12.820Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T18:03:12.826Z - info: fs store is loading data
+2021-01-19T18:03:12.968Z - info: fs store is initialized successfully
+2021-01-19T18:03:12.979Z - debug: studio default theme is: light
+2021-01-19T18:03:12.995Z - info: Creating default express app.
+2021-01-19T18:03:13.698Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T18:03:13.701Z - info: Verifying license key free
+2021-01-19T18:03:13.711Z - info: Using free license
+2021-01-19T18:03:13.728Z - info: reporter initialized
+2021-01-19T18:03:50.301Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-19T18:03:50.315Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T18:03:50.339Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-19T18:03:50.358Z - info: Found 35 extensions
+2021-01-19T18:03:50.639Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-19T18:03:50.642Z - debug: Discovered 35 extensions
+2021-01-19T18:03:50.871Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-19T18:03:50.909Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-19T18:03:50.911Z - info: Using extension cli@2.2.5
+2021-01-19T18:03:50.929Z - info: Using extension debug@2.1.3
+2021-01-19T18:03:50.938Z - info: Using extension express@2.8.1
+2021-01-19T18:03:51.319Z - info: Using extension freeze@2.0.0
+2021-01-19T18:03:51.336Z - info: Using extension handlebars@2.1.0
+2021-01-19T18:03:51.341Z - info: Using extension import-export@2.1.1
+2021-01-19T18:03:51.499Z - info: Using extension jsrender@2.1.1
+2021-01-19T18:03:51.509Z - info: Using extension tags@2.5.0
+2021-01-19T18:03:51.517Z - info: Using extension templates@2.4.0
+2021-01-19T18:03:51.520Z - info: Using extension authorization@2.4.0
+2021-01-19T18:03:51.537Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-19T18:03:51.539Z - info: Using extension base@2.0.2
+2021-01-19T18:03:51.541Z - info: Using extension browser-client@2.2.2
+2021-01-19T18:03:51.558Z - info: Using extension child-templates@1.4.0
+2021-01-19T18:03:51.597Z - info: Using extension chrome-pdf@1.10.0
+2021-01-19T18:03:51.856Z - debug: Chrome strategy is dedicated-process
+2021-01-19T18:03:51.872Z - info: Using extension data@2.4.0
+2021-01-19T18:03:51.876Z - info: Using extension docx@2.9.0
+2021-01-19T18:03:51.905Z - info: Using extension fs-store@2.9.1
+2021-01-19T18:03:52.129Z - info: Using extension licensing@2.2.3
+2021-01-19T18:03:52.152Z - info: Using extension pdf-utils@1.10.1
+2021-01-19T18:03:52.268Z - info: Using extension pptx@0.7.0
+2021-01-19T18:03:52.286Z - info: Using extension reports@2.5.1
+2021-01-19T18:03:52.293Z - info: Using extension static-pdf@0.4.0
+2021-01-19T18:03:52.307Z - info: Using extension studio@2.10.1
+2021-01-19T18:03:52.399Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-19T18:03:52.416Z - info: Using extension text@2.0.0
+2021-01-19T18:03:52.419Z - info: Using extension version-control@1.6.0
+2021-01-19T18:03:52.578Z - info: Using extension assets@1.7.0
+2021-01-19T18:03:52.600Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-19T18:03:53.489Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-19T18:03:53.490Z - info: Using extension scheduling@2.5.0
+2021-01-19T18:03:53.712Z - info: Using extension scripts@2.6.0
+2021-01-19T18:03:53.721Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-19T18:03:53.723Z - info: Using extension xlsx@2.5.0
+2021-01-19T18:03:54.224Z - info: Using extension public-templates@2.2.0
+2021-01-19T18:03:54.227Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-19T18:03:54.239Z - info: Using extension resources@2.1.0
+2021-01-19T18:03:54.242Z - info: Using extension sample-template@2.6.1
+2021-01-19T18:03:54.258Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-19T18:03:54.258Z - info: Using fs provider for template store.
+2021-01-19T18:03:54.291Z - info: fs store is persisting using fs
+2021-01-19T18:03:54.310Z - info: fs store sync is disabled
+2021-01-19T18:03:54.327Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-19T18:03:54.338Z - info: fs store is loading data
+2021-01-19T18:03:54.450Z - info: fs store is initialized successfully
+2021-01-19T18:03:54.460Z - debug: studio default theme is: light
+2021-01-19T18:03:54.488Z - info: Creating default express app.
+2021-01-19T18:03:54.602Z - info: jsreport server successfully started on http port: 5488
+2021-01-19T18:03:54.610Z - info: Verifying license key free
+2021-01-19T18:03:54.626Z - info: Using free license
+2021-01-19T18:03:54.639Z - info: reporter initialized
+2021-01-19T18:04:21.460Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:04:27.753Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:05:54.989Z - error: Error during processing request at http://localhost:5488/api/report/rkJTnK2ce, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:06:18.951Z - error: Error during processing request at http://localhost:5488/api/report/rkJTnK2ce, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:06:22.738Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:08:31.672Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:08:58.930Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:09:19.307Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-19T18:25:12.946Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T16:40:10.283Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-22T16:40:10.308Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-22T16:40:10.417Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-22T16:40:10.513Z - info: Found 35 extensions
+2021-01-22T16:40:13.816Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-22T16:40:13.837Z - debug: Discovered 35 extensions
+2021-01-22T16:40:13.935Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-22T16:40:13.967Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-22T16:40:13.967Z - info: Using extension cli@2.2.5
+2021-01-22T16:40:13.997Z - info: Using extension debug@2.1.3
+2021-01-22T16:40:14.060Z - info: Using extension express@2.8.1
+2021-01-22T16:40:16.812Z - info: Using extension freeze@2.0.0
+2021-01-22T16:40:16.843Z - info: Using extension handlebars@2.1.0
+2021-01-22T16:40:16.904Z - info: Using extension import-export@2.1.1
+2021-01-22T16:40:17.835Z - info: Using extension jsrender@2.1.1
+2021-01-22T16:40:17.844Z - info: Using extension tags@2.5.0
+2021-01-22T16:40:17.874Z - info: Using extension templates@2.4.0
+2021-01-22T16:40:17.902Z - info: Using extension authorization@2.4.0
+2021-01-22T16:40:18.026Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-22T16:40:18.026Z - info: Using extension base@2.0.2
+2021-01-22T16:40:18.074Z - info: Using extension browser-client@2.2.2
+2021-01-22T16:40:18.411Z - info: Using extension child-templates@1.4.0
+2021-01-22T16:40:18.488Z - info: Using extension chrome-pdf@1.10.0
+2021-01-22T16:40:20.756Z - debug: Chrome strategy is dedicated-process
+2021-01-22T16:40:20.757Z - info: Using extension data@2.4.0
+2021-01-22T16:40:20.871Z - info: Using extension docx@2.9.0
+2021-01-22T16:40:20.941Z - info: Using extension fs-store@2.9.1
+2021-01-22T16:40:23.363Z - info: Using extension licensing@2.2.3
+2021-01-22T16:40:23.512Z - info: Using extension pdf-utils@1.10.1
+2021-01-22T16:40:24.534Z - info: Using extension pptx@0.7.0
+2021-01-22T16:40:24.560Z - info: Using extension reports@2.5.1
+2021-01-22T16:40:24.609Z - info: Using extension static-pdf@0.4.0
+2021-01-22T16:40:24.661Z - info: Using extension studio@2.10.1
+2021-01-22T16:40:25.145Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-22T16:40:25.148Z - info: Using extension text@2.0.0
+2021-01-22T16:40:25.179Z - info: Using extension version-control@1.6.0
+2021-01-22T16:40:26.424Z - info: Using extension assets@1.7.0
+2021-01-22T16:40:26.545Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-22T16:40:31.433Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-22T16:40:31.434Z - info: Using extension scheduling@2.5.0
+2021-01-22T16:40:31.818Z - info: Using extension scripts@2.6.0
+2021-01-22T16:40:31.833Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-22T16:40:31.863Z - info: Using extension xlsx@2.5.0
+2021-01-22T16:40:33.896Z - info: Using extension public-templates@2.2.0
+2021-01-22T16:40:33.909Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-22T16:40:33.910Z - info: Using extension resources@2.1.0
+2021-01-22T16:40:33.927Z - info: Using extension sample-template@2.6.1
+2021-01-22T16:40:33.945Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-22T16:40:33.947Z - info: Using fs provider for template store.
+2021-01-22T16:40:33.962Z - info: fs store is persisting using fs
+2021-01-22T16:40:33.966Z - info: fs store sync is disabled
+2021-01-22T16:40:33.979Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-22T16:40:33.999Z - info: fs store is loading data
+2021-01-22T16:40:34.148Z - info: fs store is initialized successfully
+2021-01-22T16:40:34.161Z - debug: studio default theme is: light
+2021-01-22T16:40:34.184Z - info: Creating default express app.
+2021-01-22T16:40:34.898Z - info: jsreport server successfully started on http port: 5488
+2021-01-22T16:40:34.911Z - info: Verifying license key free
+2021-01-22T16:40:34.913Z - info: Using free license
+2021-01-22T16:40:34.918Z - info: reporter initialized
+2021-01-22T16:40:55.255Z - debug: OData query on templates
+2021-01-22T16:40:55.272Z - debug: OData query on folders
+2021-01-22T16:40:55.283Z - debug: OData query on tags
+2021-01-22T16:40:55.286Z - debug: OData query on data
+2021-01-22T16:40:55.290Z - debug: OData query on assets
+2021-01-22T16:40:55.292Z - debug: OData query on scripts
+2021-01-22T16:40:55.304Z - debug: OData query on xlsxTemplates
+2021-01-22T16:40:55.309Z - debug: OData query on schedules
+2021-01-22T16:40:55.335Z - debug: OData query on settings
+2021-01-22T16:40:55.506Z - debug: OData query on templates
+2021-01-22T16:40:55.544Z - debug: OData query on settings
+2021-01-22T16:41:06.273Z - debug: OData query on templates
+2021-01-22T16:41:24.429Z - info: Starting rendering request 1 (user: null)
+2021-01-22T16:41:24.432Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-22T16:41:24.443Z - debug: Adding sample data Sy5S19ncg
+2021-01-22T16:41:24.446Z - debug: Resources not defined for this template.
+2021-01-22T16:41:24.491Z - debug: Base url not specified, skipping its injection.
+2021-01-22T16:41:24.517Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-22T16:41:24.524Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-22T16:41:25.900Z - debug: Compiled template not found in the cache, compiling
+2021-01-22T16:41:25.901Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-22T16:41:25.916Z - debug: Executing recipe chrome-pdf
+2021-01-22T16:41:28.609Z - error: Rendering request 1 finished with error in 4180 ms
+2021-01-22T16:41:28.741Z - error: Error when processing render request 1 Failed to launch chrome!
+[0122/164128.296:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFFF2E41252+16183762]
+	ovly_debug_event [0x00007FFFF2E40832+16181170]
+	ovly_debug_event [0x00007FFFF2E53383+16257795]
+	ovly_debug_event [0x00007FFFF2E43386+16192262]
+	ovly_debug_event [0x00007FFFF2994B2E+11283118]
+	ovly_debug_event [0x00007FFFF2DBDB58+15645400]
+	ovly_debug_event [0x00007FFFF2DBDACD+15645261]
+	ovly_debug_event [0x00007FFFF2DE8F28+15822504]
+	ovly_debug_event [0x00007FFFF2DBD35E+15643358]
+	ovly_debug_event [0x00007FFFF2DE83E3+15819619]
+	ovly_debug_event [0x00007FFFF2DE82BB+15819323]
+	ovly_debug_event [0x00007FFFF2DE80F2+15818866]
+	ChromeMain [0x00007FFFF1ED11B6+286]
+	Ordinal0 [0x00007FF73761275F+10079]
+	Ordinal0 [0x00007FF73761182D+6189]
+	GetHandleVerifier [0x00007FF73771B7C2+697538]
+	BaseThreadInitThunk [0x00007FF856F07034+20]
+	RtlUserThreadStart [0x00007FF85703D0D1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+ Error: Failed to launch chrome!
+[0122/164128.296:FATAL:feature_list.cc(282)] Check failed: !g_initialized_from_accessor. 
+Backtrace:
+	ovly_debug_event [0x00007FFFF2E41252+16183762]
+	ovly_debug_event [0x00007FFFF2E40832+16181170]
+	ovly_debug_event [0x00007FFFF2E53383+16257795]
+	ovly_debug_event [0x00007FFFF2E43386+16192262]
+	ovly_debug_event [0x00007FFFF2994B2E+11283118]
+	ovly_debug_event [0x00007FFFF2DBDB58+15645400]
+	ovly_debug_event [0x00007FFFF2DBDACD+15645261]
+	ovly_debug_event [0x00007FFFF2DE8F28+15822504]
+	ovly_debug_event [0x00007FFFF2DBD35E+15643358]
+	ovly_debug_event [0x00007FFFF2DE83E3+15819619]
+	ovly_debug_event [0x00007FFFF2DE82BB+15819323]
+	ovly_debug_event [0x00007FFFF2DE80F2+15818866]
+	ChromeMain [0x00007FFFF1ED11B6+286]
+	Ordinal0 [0x00007FF73761275F+10079]
+	Ordinal0 [0x00007FF73761182D+6189]
+	GetHandleVerifier [0x00007FF73771B7C2+697538]
+	BaseThreadInitThunk [0x00007FF856F07034+20]
+	RtlUserThreadStart [0x00007FF85703D0D1+33]
+
+
+
+TROUBLESHOOTING: https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
+
+    at onClose (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\puppeteer\lib\Launcher.js:348:14)
+    at ChildProcess.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\puppeteer\lib\Launcher.js:338:60)
+    at ChildProcess.emit (events.js:327:22)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)
+2021-01-22T16:41:28.752Z - error: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-22T16:41:39.255Z - debug: OData query on assets
+2021-01-22T16:41:41.643Z - info: Starting rendering request 2 (user: null)
+2021-01-22T16:41:41.657Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-22T16:41:41.662Z - debug: Adding sample data Sy5S19ncg
+2021-01-22T16:41:41.663Z - debug: Resources not defined for this template.
+2021-01-22T16:41:41.665Z - debug: Base url not specified, skipping its injection.
+2021-01-22T16:41:41.668Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-22T16:41:41.670Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-22T16:41:41.964Z - debug: Compiled template not found in the cache, compiling
+2021-01-22T16:41:41.965Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-22T16:41:41.982Z - debug: Executing recipe chrome-pdf
+2021-01-22T16:41:43.454Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-22T16:41:45.905Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/44c872a2-1e8d-43f9-98bf-03962145204e-chrome-pdf.html
+2021-01-22T16:41:45.997Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/44c872a2-1e8d-43f9-98bf-03962145204e-chrome-pdf.html
+2021-01-22T16:41:46.015Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-22T16:41:46.017Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-22T16:41:46.083Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-22T16:41:46.685Z - info: Rendering request 2 finished in 5041 ms
+2021-01-22T16:41:46.703Z - debug: Skipping storing report.
+2021-01-22T16:43:42.055Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T16:50:35.745Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-22T17:28:23.016Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2021-01-25T15:56:26.325Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-01-25T15:56:26.374Z - info: Searching for available extensions in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-25T15:56:26.475Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\
+2021-01-25T15:56:26.827Z - info: Found 35 extensions
+2021-01-25T15:56:34.703Z - debug: Writing extension locations cache to C:\Users\rlfla\AppData\Local\Temp\jsreport\core\locations.json
+2021-01-25T15:56:34.735Z - debug: Discovered 35 extensions
+2021-01-25T15:56:34.844Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2021-01-25T15:56:34.917Z - debug: Extension authentication@2.6.1 is disabled, skipping
+2021-01-25T15:56:34.934Z - info: Using extension cli@2.2.5
+2021-01-25T15:56:34.962Z - info: Using extension debug@2.1.3
+2021-01-25T15:56:35.024Z - info: Using extension express@2.8.1
+2021-01-25T15:56:39.530Z - info: Using extension freeze@2.0.0
+2021-01-25T15:56:39.543Z - info: Using extension handlebars@2.1.0
+2021-01-25T15:56:39.592Z - info: Using extension import-export@2.1.1
+2021-01-25T15:56:41.913Z - info: Using extension jsrender@2.1.1
+2021-01-25T15:56:41.916Z - info: Using extension tags@2.5.0
+2021-01-25T15:56:41.962Z - info: Using extension templates@2.4.0
+2021-01-25T15:56:41.983Z - info: Using extension authorization@2.4.0
+2021-01-25T15:56:42.077Z - debug: Extension authorization@2.4.0 was disabled
+2021-01-25T15:56:42.078Z - info: Using extension base@2.0.2
+2021-01-25T15:56:42.102Z - info: Using extension browser-client@2.2.2
+2021-01-25T15:56:42.149Z - info: Using extension child-templates@1.4.0
+2021-01-25T15:56:42.237Z - info: Using extension chrome-pdf@1.10.0
+2021-01-25T15:56:43.619Z - debug: Chrome strategy is dedicated-process
+2021-01-25T15:56:43.621Z - info: Using extension data@2.4.0
+2021-01-25T15:56:43.637Z - info: Using extension docx@2.9.0
+2021-01-25T15:56:43.705Z - info: Using extension fs-store@2.9.1
+2021-01-25T15:56:46.690Z - info: Using extension licensing@2.2.3
+2021-01-25T15:56:46.724Z - info: Using extension pdf-utils@1.10.1
+2021-01-25T15:56:48.474Z - info: Using extension pptx@0.7.0
+2021-01-25T15:56:48.521Z - info: Using extension reports@2.5.1
+2021-01-25T15:56:48.595Z - info: Using extension static-pdf@0.4.0
+2021-01-25T15:56:48.702Z - info: Using extension studio@2.10.1
+2021-01-25T15:56:49.587Z - debug: studio request logs are enabled (flush interval: 2000)
+2021-01-25T15:56:49.603Z - info: Using extension text@2.0.0
+2021-01-25T15:56:49.644Z - info: Using extension version-control@1.6.0
+2021-01-25T15:56:54.053Z - info: Using extension assets@1.7.0
+2021-01-25T15:56:54.252Z - info: Using extension html-to-xlsx@2.8.3
+2021-01-25T15:57:01.996Z - info: html-to-xlsx detected chrome as available html engine
+2021-01-25T15:57:01.997Z - info: Using extension scheduling@2.5.0
+2021-01-25T15:57:02.649Z - info: Using extension scripts@2.6.0
+2021-01-25T15:57:02.706Z - info: Using extension studio-theme-dark@0.3.0
+2021-01-25T15:57:02.724Z - info: Using extension xlsx@2.5.0
+2021-01-25T15:57:05.487Z - info: Using extension public-templates@2.2.0
+2021-01-25T15:57:05.505Z - debug: Extension public-templates@2.2.0 was disabled
+2021-01-25T15:57:05.505Z - info: Using extension resources@2.1.0
+2021-01-25T15:57:05.523Z - info: Using extension sample-template@2.6.1
+2021-01-25T15:57:05.738Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-01-25T15:57:05.739Z - info: Using fs provider for template store.
+2021-01-25T15:57:05.755Z - info: fs store is persisting using fs
+2021-01-25T15:57:05.758Z - info: fs store sync is disabled
+2021-01-25T15:57:05.760Z - info: fs store underlying changes synchronization with studio is disabled
+2021-01-25T15:57:05.808Z - info: fs store is loading data
+2021-01-25T15:57:05.972Z - info: fs store is initialized successfully
+2021-01-25T15:57:05.984Z - debug: studio default theme is: light
+2021-01-25T15:57:05.992Z - info: Creating default express app.
+2021-01-25T15:57:06.963Z - info: jsreport server successfully started on http port: 5488
+2021-01-25T15:57:06.972Z - info: Verifying license key free
+2021-01-25T15:57:06.974Z - info: Using free license
+2021-01-25T15:57:06.979Z - info: reporter initialized
+2021-01-25T15:59:37.442Z - debug: OData query on templates
+2021-01-25T15:59:37.456Z - debug: OData query on folders
+2021-01-25T15:59:37.465Z - debug: OData query on tags
+2021-01-25T15:59:37.474Z - debug: OData query on data
+2021-01-25T15:59:37.476Z - debug: OData query on assets
+2021-01-25T15:59:37.478Z - debug: OData query on scripts
+2021-01-25T15:59:37.491Z - debug: OData query on xlsxTemplates
+2021-01-25T15:59:37.496Z - debug: OData query on schedules
+2021-01-25T15:59:37.513Z - debug: OData query on settings
+2021-01-25T15:59:37.635Z - debug: OData query on templates
+2021-01-25T16:17:13.184Z - info: Starting rendering request 1 (user: null)
+2021-01-25T16:17:13.189Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:17:13.191Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T16:17:13.191Z - debug: Resources not defined for this template.
+2021-01-25T16:17:13.194Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:17:13.200Z - debug: Replaced assets ["invoice-styles.css","invoice-logo.png"]
+2021-01-25T16:17:13.201Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:17:15.258Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:17:15.259Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:17:15.262Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:17:19.657Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:17:23.207Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/a9f07f90-33d9-4e8f-b2d2-8959a8271ce4-chrome-pdf.html
+2021-01-25T16:17:23.582Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/a9f07f90-33d9-4e8f-b2d2-8959a8271ce4-chrome-pdf.html
+2021-01-25T16:17:23.588Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-25T16:17:23.590Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnYAAABoCAYAAAB8F707AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2...
+2021-01-25T16:17:23.657Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:17:24.160Z - info: Rendering request 1 finished in 10976 ms
+2021-01-25T16:17:24.161Z - debug: Skipping storing report.
+2021-01-25T16:22:11.389Z - debug: OData query on data
+2021-01-25T16:22:22.893Z - debug: OData query on assets
+2021-01-25T16:22:24.004Z - debug: OData query on assets
+2021-01-25T16:23:01.058Z - debug: OData remove from assets
+2021-01-25T16:23:15.122Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:23:21.215Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:24:39.831Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=G3i2B3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:25:39.791Z - debug: OData insert into folders
+2021-01-25T16:25:48.883Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=false&targetFolder=jSXoXD3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:25:55.811Z - error: Error during processing request at http://localhost:5488/api/validate-import?fullImport=true&targetFolder=jSXoXD3, details: Error: end of central directory record signature not found
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:187:14
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\yauzl\index.js:631:5
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\fd-slicer\index.js:32:7
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:523:5)
+2021-01-25T16:26:01.783Z - debug: OData remove from folders
+2021-01-25T16:26:03.696Z - info: Starting rendering request 2 (user: null)
+2021-01-25T16:26:03.697Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:26:03.698Z - debug: Inline data specified.
+2021-01-25T16:26:03.702Z - debug: Resources not defined for this template.
+2021-01-25T16:26:03.703Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:26:03.707Z - error: Rendering request 2 finished with error in 12 ms
+2021-01-25T16:26:03.709Z - error: Error when processing render request 2 Asset invoice-logo.png not found Error: Asset invoice-logo.png not found
+    at readAsset (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-assets\lib\assets.js:218:15)
+2021-01-25T16:26:03.710Z - error: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-25T16:27:30.366Z - debug: OData update on templates
+2021-01-25T16:27:30.398Z - debug: OData query on templates
+2021-01-25T16:27:40.821Z - debug: OData update on templates
+2021-01-25T16:27:40.848Z - debug: OData query on templates
+2021-01-25T16:27:41.877Z - info: Starting rendering request 3 (user: null)
+2021-01-25T16:27:41.878Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:27:41.879Z - debug: Inline data specified.
+2021-01-25T16:27:41.879Z - debug: Resources not defined for this template.
+2021-01-25T16:27:41.881Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:27:41.884Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:27:41.885Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:27:42.120Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:27:42.121Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:27:42.122Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:27:42.295Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:27:42.784Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b308d72d-b77c-4771-8e47-863cd5ae382a-chrome-pdf.html
+2021-01-25T16:27:42.820Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b308d72d-b77c-4771-8e47-863cd5ae382a-chrome-pdf.html
+2021-01-25T16:27:42.857Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:27:43.223Z - info: Rendering request 3 finished in 1346 ms
+2021-01-25T16:27:43.225Z - debug: Skipping storing report.
+2021-01-25T16:28:56.325Z - debug: OData update on templates
+2021-01-25T16:28:56.365Z - debug: OData query on templates
+2021-01-25T16:29:16.157Z - debug: OData update on templates
+2021-01-25T16:29:16.191Z - debug: OData query on templates
+2021-01-25T16:29:22.473Z - debug: OData update on data
+2021-01-25T16:29:22.497Z - debug: OData query on data
+2021-01-25T16:29:23.460Z - info: Starting rendering request 4 (user: null)
+2021-01-25T16:29:23.461Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:29:23.462Z - debug: Inline data specified.
+2021-01-25T16:29:23.463Z - debug: Resources not defined for this template.
+2021-01-25T16:29:23.464Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:29:23.466Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:29:23.466Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:29:23.691Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:29:23.691Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:29:23.693Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:29:23.861Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:29:24.265Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/53279b35-2641-481d-8de9-8f51c6a86257-chrome-pdf.html
+2021-01-25T16:29:24.283Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/53279b35-2641-481d-8de9-8f51c6a86257-chrome-pdf.html
+2021-01-25T16:29:24.316Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:29:24.665Z - info: Rendering request 4 finished in 1206 ms
+2021-01-25T16:29:24.666Z - debug: Skipping storing report.
+2021-01-25T16:29:41.326Z - debug: OData update on templates
+2021-01-25T16:29:41.353Z - debug: OData query on templates
+2021-01-25T16:29:42.406Z - info: Starting rendering request 5 (user: null)
+2021-01-25T16:29:42.408Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:29:42.411Z - debug: Inline data specified.
+2021-01-25T16:29:42.411Z - debug: Resources not defined for this template.
+2021-01-25T16:29:42.412Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:29:42.414Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:29:42.415Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:29:42.702Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:29:42.702Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:29:42.703Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:29:42.865Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:29:43.217Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/cf5e822c-b129-4247-8411-718314a12515-chrome-pdf.html
+2021-01-25T16:29:43.242Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/cf5e822c-b129-4247-8411-718314a12515-chrome-pdf.html
+2021-01-25T16:29:43.279Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:29:43.602Z - info: Rendering request 5 finished in 1197 ms
+2021-01-25T16:29:43.603Z - debug: Skipping storing report.
+2021-01-25T16:29:57.452Z - debug: OData update on templates
+2021-01-25T16:29:57.524Z - debug: OData query on templates
+2021-01-25T16:29:58.556Z - info: Starting rendering request 6 (user: null)
+2021-01-25T16:29:58.558Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:29:58.559Z - debug: Inline data specified.
+2021-01-25T16:29:58.560Z - debug: Resources not defined for this template.
+2021-01-25T16:29:58.561Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:29:58.565Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:29:58.565Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:29:58.817Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:29:58.817Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:29:58.818Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:29:59.037Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:29:59.499Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/3b151ab4-6e7c-46ea-b342-f8b7e37cb554-chrome-pdf.html
+2021-01-25T16:29:59.519Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/3b151ab4-6e7c-46ea-b342-f8b7e37cb554-chrome-pdf.html
+2021-01-25T16:29:59.556Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:29:59.851Z - info: Rendering request 6 finished in 1288 ms
+2021-01-25T16:29:59.852Z - debug: Skipping storing report.
+2021-01-25T16:30:13.447Z - debug: OData update on data
+2021-01-25T16:30:13.471Z - debug: OData query on data
+2021-01-25T16:30:23.625Z - debug: OData update on data
+2021-01-25T16:30:23.645Z - debug: OData query on data
+2021-01-25T16:30:35.808Z - debug: OData update on data
+2021-01-25T16:30:35.832Z - debug: OData query on data
+2021-01-25T16:30:38.280Z - debug: OData query on templates
+2021-01-25T16:30:38.286Z - debug: OData query on folders
+2021-01-25T16:30:38.290Z - debug: OData query on tags
+2021-01-25T16:30:38.292Z - debug: OData query on data
+2021-01-25T16:30:38.295Z - debug: OData query on assets
+2021-01-25T16:30:38.299Z - debug: OData query on scripts
+2021-01-25T16:30:38.312Z - debug: OData query on xlsxTemplates
+2021-01-25T16:30:38.315Z - debug: OData query on schedules
+2021-01-25T16:30:38.325Z - debug: OData query on settings
+2021-01-25T16:30:38.394Z - debug: OData query on data
+2021-01-25T16:30:42.308Z - debug: OData query on templates
+2021-01-25T16:30:42.952Z - info: Starting rendering request 7 (user: null)
+2021-01-25T16:30:42.953Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:30:42.954Z - debug: Inline data specified.
+2021-01-25T16:30:42.954Z - debug: Resources not defined for this template.
+2021-01-25T16:30:42.955Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:30:42.958Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:30:42.959Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:30:43.313Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:30:43.315Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:30:43.316Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:30:43.625Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:30:43.991Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/d2d92f44-0aee-4fa2-95e5-40a3767d9f03-chrome-pdf.html
+2021-01-25T16:30:44.016Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/d2d92f44-0aee-4fa2-95e5-40a3767d9f03-chrome-pdf.html
+2021-01-25T16:30:44.079Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:30:44.349Z - info: Rendering request 7 finished in 1396 ms
+2021-01-25T16:30:44.351Z - debug: Skipping storing report.
+2021-01-25T16:41:51.185Z - debug: OData update on templates
+2021-01-25T16:41:51.257Z - debug: OData query on templates
+2021-01-25T16:42:03.742Z - debug: OData update on templates
+2021-01-25T16:42:03.775Z - debug: OData query on templates
+2021-01-25T16:42:04.820Z - info: Starting rendering request 8 (user: null)
+2021-01-25T16:42:04.821Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:42:04.822Z - debug: Inline data specified.
+2021-01-25T16:42:04.822Z - debug: Resources not defined for this template.
+2021-01-25T16:42:04.823Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:42:04.826Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:42:04.827Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:42:05.093Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:42:05.094Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:42:05.096Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:42:05.326Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:42:05.772Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/2b8ce4c4-a6dc-4df7-97b3-57a6a75f8115-chrome-pdf.html
+2021-01-25T16:42:05.795Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/2b8ce4c4-a6dc-4df7-97b3-57a6a75f8115-chrome-pdf.html
+2021-01-25T16:42:05.833Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:42:06.202Z - info: Rendering request 8 finished in 1382 ms
+2021-01-25T16:42:06.202Z - debug: Skipping storing report.
+2021-01-25T16:42:19.641Z - debug: OData update on templates
+2021-01-25T16:42:19.690Z - debug: OData query on templates
+2021-01-25T16:42:20.532Z - info: Starting rendering request 9 (user: null)
+2021-01-25T16:42:20.533Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:42:20.534Z - debug: Inline data specified.
+2021-01-25T16:42:20.535Z - debug: Resources not defined for this template.
+2021-01-25T16:42:20.536Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:42:20.539Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:42:20.540Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:42:20.794Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:42:20.799Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:42:20.801Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:42:21.017Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:42:21.452Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/5b276fe7-f225-48c7-808c-a1f1564bc4e9-chrome-pdf.html
+2021-01-25T16:42:21.471Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/5b276fe7-f225-48c7-808c-a1f1564bc4e9-chrome-pdf.html
+2021-01-25T16:42:21.506Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:42:21.791Z - info: Rendering request 9 finished in 1259 ms
+2021-01-25T16:42:21.791Z - debug: Skipping storing report.
+2021-01-25T16:42:28.021Z - debug: OData update on templates
+2021-01-25T16:42:28.047Z - debug: OData query on templates
+2021-01-25T16:42:32.582Z - debug: OData update on templates
+2021-01-25T16:42:32.665Z - debug: OData query on templates
+2021-01-25T16:42:33.312Z - info: Starting rendering request 10 (user: null)
+2021-01-25T16:42:33.313Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:42:33.314Z - debug: Inline data specified.
+2021-01-25T16:42:33.315Z - debug: Resources not defined for this template.
+2021-01-25T16:42:33.317Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:42:33.321Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:42:33.322Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:42:33.536Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:42:33.537Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:42:33.538Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:42:33.715Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:42:34.252Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/eb419ebf-7e4e-4245-91b3-e01618b67af1-chrome-pdf.html
+2021-01-25T16:42:34.275Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/eb419ebf-7e4e-4245-91b3-e01618b67af1-chrome-pdf.html
+2021-01-25T16:42:34.332Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:42:34.686Z - info: Rendering request 10 finished in 1374 ms
+2021-01-25T16:42:34.687Z - debug: Skipping storing report.
+2021-01-25T16:42:34.985Z - info: Starting rendering request 11 (user: null)
+2021-01-25T16:42:34.987Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:42:34.993Z - debug: Inline data specified.
+2021-01-25T16:42:34.993Z - debug: Resources not defined for this template.
+2021-01-25T16:42:34.995Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:42:34.997Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:42:34.999Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:42:35.222Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:42:35.222Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:42:35.224Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:42:35.393Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:42:35.831Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/0e653604-1117-4eb9-b10b-7ab3ad3dbf11-chrome-pdf.html
+2021-01-25T16:42:35.846Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/0e653604-1117-4eb9-b10b-7ab3ad3dbf11-chrome-pdf.html
+2021-01-25T16:42:35.887Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:42:36.185Z - info: Rendering request 11 finished in 1203 ms
+2021-01-25T16:42:36.186Z - debug: Skipping storing report.
+2021-01-25T16:42:37.490Z - debug: OData query on assets
+2021-01-25T16:43:21.844Z - debug: OData update on templates
+2021-01-25T16:43:21.900Z - debug: OData query on templates
+2021-01-25T16:43:28.367Z - debug: OData update on templates
+2021-01-25T16:43:28.394Z - debug: OData query on templates
+2021-01-25T16:43:32.420Z - info: Starting rendering request 12 (user: null)
+2021-01-25T16:43:32.422Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:43:32.423Z - debug: Inline data specified.
+2021-01-25T16:43:32.424Z - debug: Resources not defined for this template.
+2021-01-25T16:43:32.426Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:43:32.429Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:43:32.430Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:43:32.692Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:43:32.693Z - debug: Calculating item Website design; you should see this message in debug run
+2021-01-25T16:43:32.694Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:43:32.855Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:43:33.311Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/64e90b36-2b30-4101-b16c-5ca158d6c6c1-chrome-pdf.html
+2021-01-25T16:43:33.329Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/64e90b36-2b30-4101-b16c-5ca158d6c6c1-chrome-pdf.html
+2021-01-25T16:43:33.363Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:43:33.670Z - info: Rendering request 12 finished in 1251 ms
+2021-01-25T16:43:33.672Z - debug: Skipping storing report.
+2021-01-25T16:50:12.190Z - debug: OData update on data
+2021-01-25T16:50:12.213Z - debug: OData query on data
+2021-01-25T16:50:23.791Z - debug: OData update on data
+2021-01-25T16:50:23.812Z - debug: OData query on data
+2021-01-25T16:50:25.071Z - debug: OData update on templates
+2021-01-25T16:50:25.104Z - debug: OData query on templates
+2021-01-25T16:50:34.795Z - debug: OData update on templates
+2021-01-25T16:50:34.823Z - debug: OData query on templates
+2021-01-25T16:50:36.088Z - info: Starting rendering request 13 (user: null)
+2021-01-25T16:50:36.089Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:50:36.090Z - debug: Inline data specified.
+2021-01-25T16:50:36.090Z - debug: Resources not defined for this template.
+2021-01-25T16:50:36.092Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:50:36.094Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:50:36.095Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:50:36.534Z - warn: Rendering request 13 finished with error in 447 ms
+2021-01-25T16:50:36.542Z - warn: Error when processing render request 13 Error while executing templating engine. Cannot read property 'forEach' of undefined. Error on line 134:11.
+
+  132 | function total(items) {
+  133 |     var sum = 0
+> 134 |     items.forEach(function (i) {
+      |           ^
+  135 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  136 |         sum += i.price
+  137 |     })
+
+ TypeError: Cannot read property 'forEach' of undefined
+    at Object.total (evaluate-template-engine-helpers.js:134:11)
+    at Object.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:207:27)
+    at Object.wrapper (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:19:100)
+    at main (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2021-01-25T16:50:36.544Z - warn: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-25T16:50:58.888Z - debug: OData update on templates
+2021-01-25T16:50:58.923Z - debug: OData query on templates
+2021-01-25T16:50:59.800Z - info: Starting rendering request 14 (user: null)
+2021-01-25T16:50:59.801Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:50:59.803Z - debug: Inline data specified.
+2021-01-25T16:50:59.804Z - debug: Resources not defined for this template.
+2021-01-25T16:50:59.805Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:50:59.810Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:50:59.811Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:51:00.174Z - warn: Rendering request 14 finished with error in 374 ms
+2021-01-25T16:51:00.183Z - warn: Error when processing render request 14 Error while executing templating engine. Cannot read property 'forEach' of undefined. Error on line 134:11.
+
+  132 | function total(items) {
+  133 |     var sum = 0
+> 134 |     items.forEach(function (i) {
+      |           ^
+  135 |         console.log('Calculating item ' + i.name + '; you should see this message in debug run')
+  136 |         sum += i.price
+  137 |     })
+
+ TypeError: Cannot read property 'forEach' of undefined
+    at Object.total (evaluate-template-engine-helpers.js:134:11)
+    at Object.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\engineScript.js:207:27)
+    at Object.wrapper (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:19:100)
+    at main (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+2021-01-25T16:51:00.183Z - warn: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-25T16:51:15.244Z - debug: OData update on templates
+2021-01-25T16:51:15.297Z - debug: OData query on templates
+2021-01-25T16:51:24.791Z - debug: OData update on data
+2021-01-25T16:51:24.813Z - debug: OData query on data
+2021-01-25T16:51:27.902Z - debug: OData update on data
+2021-01-25T16:51:27.925Z - debug: OData query on data
+2021-01-25T16:51:36.001Z - debug: OData update on templates
+2021-01-25T16:51:36.034Z - debug: OData query on templates
+2021-01-25T16:51:36.765Z - info: Starting rendering request 15 (user: null)
+2021-01-25T16:51:36.767Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:51:36.768Z - debug: Inline data specified.
+2021-01-25T16:51:36.769Z - debug: Resources not defined for this template.
+2021-01-25T16:51:36.771Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:51:36.773Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:51:36.774Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:51:37.005Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:51:37.006Z - debug: Calculating item 300; you should see this message in debug run
+2021-01-25T16:51:37.008Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:51:37.321Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:51:37.773Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c9810969-dec9-4bd4-a91c-0455922b89cc-chrome-pdf.html
+2021-01-25T16:51:37.793Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c9810969-dec9-4bd4-a91c-0455922b89cc-chrome-pdf.html
+2021-01-25T16:51:37.828Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:51:38.170Z - info: Rendering request 15 finished in 1405 ms
+2021-01-25T16:51:38.171Z - debug: Skipping storing report.
+2021-01-25T16:51:47.818Z - debug: OData update on templates
+2021-01-25T16:51:47.846Z - debug: OData query on templates
+2021-01-25T16:52:39.606Z - debug: OData update on data
+2021-01-25T16:52:39.629Z - debug: OData query on data
+2021-01-25T16:52:43.548Z - info: Starting rendering request 16 (user: null)
+2021-01-25T16:52:43.549Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T16:52:43.551Z - debug: Inline data specified.
+2021-01-25T16:52:43.552Z - debug: Resources not defined for this template.
+2021-01-25T16:52:43.553Z - debug: Base url not specified, skipping its injection.
+2021-01-25T16:52:43.556Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T16:52:43.557Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T16:52:43.778Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T16:52:43.778Z - debug: Executing recipe chrome-pdf
+2021-01-25T16:52:43.915Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T16:52:44.287Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c702d3d2-84fe-4c53-ae88-7c3acc8ceaa1-chrome-pdf.html
+2021-01-25T16:52:44.316Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c702d3d2-84fe-4c53-ae88-7c3acc8ceaa1-chrome-pdf.html
+2021-01-25T16:52:44.353Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T16:52:44.656Z - info: Rendering request 16 finished in 1107 ms
+2021-01-25T16:52:44.657Z - debug: Skipping storing report.
+2021-01-25T17:03:18.905Z - debug: OData insert into scripts
+2021-01-25T17:03:31.507Z - debug: OData update on scripts
+2021-01-25T17:03:31.531Z - debug: OData query on scripts
+2021-01-25T17:03:57.621Z - debug: OData update on scripts
+2021-01-25T17:03:57.646Z - debug: OData query on scripts
+2021-01-25T17:05:01.537Z - debug: OData update on scripts
+2021-01-25T17:05:01.563Z - debug: OData query on scripts
+2021-01-25T17:05:05.794Z - info: Starting rendering request 17 (user: null)
+2021-01-25T17:05:05.795Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:05:05.796Z - debug: Inline data specified.
+2021-01-25T17:05:05.797Z - debug: Resources not defined for this template.
+2021-01-25T17:05:05.800Z - debug: Executing script load data using dedicated-process strategy
+2021-01-25T17:05:09.574Z - warn: Rendering request 17 finished with error in 3779 ms
+2021-01-25T17:05:09.582Z - warn: Error when processing render request 17 Error while executing user script. require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }. 
+
+> 1 | var mysql = require('mysql');
+    |             ^
+  2 | 
+  3 | var con = mysql.createConnection({
+  4 |     host: "localhost",
+
+ Error: require of "mysql" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["mysql"] } }
+    at _require (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:1:13
+    at Script.runInContext (vm.js:142:20)
+    at VM.run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (C:\Users\rlfla\Desktop\ITC\angular-mxgraph\jsreport\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+2021-01-25T17:05:09.584Z - warn: Error during processing request at http://localhost:5488/api/report/invoice-main
+2021-01-25T17:09:40.691Z - debug: OData update on scripts
+2021-01-25T17:09:40.714Z - debug: OData query on scripts
+2021-01-25T17:09:41.878Z - info: Starting rendering request 18 (user: null)
+2021-01-25T17:09:41.879Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:09:41.885Z - debug: Inline data specified.
+2021-01-25T17:09:41.886Z - debug: Resources not defined for this template.
+2021-01-25T17:09:41.887Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:09:41.889Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:09:41.889Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:09:42.129Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:09:42.132Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:09:42.295Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:09:42.705Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/055051b0-ede8-4c78-a0b2-e4f6f2ee12e5-chrome-pdf.html
+2021-01-25T17:09:42.720Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/055051b0-ede8-4c78-a0b2-e4f6f2ee12e5-chrome-pdf.html
+2021-01-25T17:09:42.756Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:09:43.117Z - info: Rendering request 18 finished in 1250 ms
+2021-01-25T17:09:43.118Z - debug: Skipping storing report.
+2021-01-25T17:10:06.362Z - debug: OData update on data
+2021-01-25T17:10:06.382Z - debug: OData query on data
+2021-01-25T17:10:07.292Z - info: Starting rendering request 19 (user: null)
+2021-01-25T17:10:07.294Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:10:07.295Z - debug: Inline data specified.
+2021-01-25T17:10:07.295Z - debug: Resources not defined for this template.
+2021-01-25T17:10:07.296Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:10:07.298Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:10:07.299Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:10:07.566Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:10:07.567Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:10:07.750Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:10:08.149Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/287d4379-17a9-471f-89d4-55c9065b6029-chrome-pdf.html
+2021-01-25T17:10:08.170Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/287d4379-17a9-471f-89d4-55c9065b6029-chrome-pdf.html
+2021-01-25T17:10:08.202Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:10:08.519Z - info: Rendering request 19 finished in 1227 ms
+2021-01-25T17:10:08.519Z - debug: Skipping storing report.
+2021-01-25T17:10:33.689Z - debug: OData update on data
+2021-01-25T17:10:33.714Z - debug: OData query on data
+2021-01-25T17:10:38.174Z - debug: OData update on data
+2021-01-25T17:10:38.197Z - debug: OData query on data
+2021-01-25T17:10:45.556Z - debug: OData update on data
+2021-01-25T17:10:45.579Z - debug: OData query on data
+2021-01-25T17:10:59.659Z - debug: OData update on data
+2021-01-25T17:10:59.683Z - debug: OData query on data
+2021-01-25T17:11:08.912Z - debug: OData update on templates
+2021-01-25T17:11:08.955Z - debug: OData query on templates
+2021-01-25T17:11:14.334Z - debug: OData query on templates
+2021-01-25T17:11:15.286Z - debug: OData query on scripts
+2021-01-25T17:12:10.085Z - debug: OData update on data
+2021-01-25T17:12:10.106Z - debug: OData query on data
+2021-01-25T17:12:29.461Z - debug: OData update on data
+2021-01-25T17:12:29.489Z - debug: OData query on data
+2021-01-25T17:13:28.949Z - debug: OData update on data
+2021-01-25T17:13:28.971Z - debug: OData query on data
+2021-01-25T17:14:12.441Z - debug: OData update on data
+2021-01-25T17:14:12.464Z - debug: OData query on data
+2021-01-25T17:14:13.761Z - info: Starting rendering request 20 (user: null)
+2021-01-25T17:14:13.762Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:14:13.763Z - debug: Inline data specified.
+2021-01-25T17:14:13.764Z - debug: Resources not defined for this template.
+2021-01-25T17:14:13.765Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:14:13.767Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:14:13.768Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:14:14.001Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:14:14.004Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:14:14.156Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:14:14.559Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/e3e20957-cfaa-433c-bc00-a75e22e1c759-chrome-pdf.html
+2021-01-25T17:14:14.582Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/e3e20957-cfaa-433c-bc00-a75e22e1c759-chrome-pdf.html
+2021-01-25T17:14:14.627Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:14:15.005Z - info: Rendering request 20 finished in 1244 ms
+2021-01-25T17:14:15.005Z - debug: Skipping storing report.
+2021-01-25T17:14:27.746Z - debug: OData update on templates
+2021-01-25T17:14:27.773Z - debug: OData query on templates
+2021-01-25T17:14:38.309Z - debug: OData query on scripts
+2021-01-25T17:14:41.638Z - debug: Version control commit: local changes
+2021-01-25T17:14:41.945Z - debug: Version control diff for local changes
+2021-01-25T17:14:49.256Z - debug: Version control commit: First version
+2021-01-25T17:14:49.466Z - debug: Version control commit: local changes
+2021-01-25T17:14:49.643Z - debug: Version control diff for local changes
+2021-01-25T17:23:13.866Z - info: Starting rendering request 21 (user: null)
+2021-01-25T17:23:13.866Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:23:13.867Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:23:13.867Z - debug: Resources not defined for this template.
+2021-01-25T17:23:13.868Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:23:13.871Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:23:13.872Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:23:14.109Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:23:14.110Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:23:14.307Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:23:14.770Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c787d6a7-a1d8-4f6d-95b2-05e975bdc8b4-chrome-pdf.html
+2021-01-25T17:23:14.792Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/c787d6a7-a1d8-4f6d-95b2-05e975bdc8b4-chrome-pdf.html
+2021-01-25T17:23:14.825Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:23:15.212Z - info: Rendering request 21 finished in 1347 ms
+2021-01-25T17:23:15.213Z - debug: Skipping storing report.
+2021-01-25T17:24:34.055Z - info: Starting rendering request 22 (user: null)
+2021-01-25T17:24:34.056Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:24:34.057Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:24:34.059Z - debug: Resources not defined for this template.
+2021-01-25T17:24:34.059Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:24:34.062Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:24:34.063Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:24:34.298Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:24:34.299Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:24:34.540Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:24:34.917Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b7f2ce5c-43f7-4127-9ae2-848a14847676-chrome-pdf.html
+2021-01-25T17:24:34.928Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/b7f2ce5c-43f7-4127-9ae2-848a14847676-chrome-pdf.html
+2021-01-25T17:24:34.972Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:24:35.335Z - info: Rendering request 22 finished in 1280 ms
+2021-01-25T17:24:35.335Z - debug: Skipping storing report.
+2021-01-25T17:25:07.484Z - info: Starting rendering request 23 (user: null)
+2021-01-25T17:25:07.486Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:25:07.488Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:25:07.489Z - debug: Resources not defined for this template.
+2021-01-25T17:25:07.491Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:25:07.494Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:25:07.495Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:25:07.736Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:25:07.737Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:25:07.909Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:25:08.329Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/bd9083c6-0b2a-4b6e-a021-e28238328b6d-chrome-pdf.html
+2021-01-25T17:25:08.342Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/bd9083c6-0b2a-4b6e-a021-e28238328b6d-chrome-pdf.html
+2021-01-25T17:25:08.383Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:25:08.736Z - info: Rendering request 23 finished in 1252 ms
+2021-01-25T17:25:08.736Z - debug: Skipping storing report.
+2021-01-25T17:26:24.362Z - info: Starting rendering request 24 (user: null)
+2021-01-25T17:26:24.364Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:26:24.365Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:26:24.366Z - debug: Resources not defined for this template.
+2021-01-25T17:26:24.367Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:26:24.371Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:26:24.372Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:26:24.610Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:26:24.613Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:26:24.818Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:26:25.199Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/013d15bd-22e3-41c6-afb6-198d886c075f-chrome-pdf.html
+2021-01-25T17:26:25.217Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/013d15bd-22e3-41c6-afb6-198d886c075f-chrome-pdf.html
+2021-01-25T17:26:25.255Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:26:25.588Z - info: Rendering request 24 finished in 1226 ms
+2021-01-25T17:26:25.589Z - debug: Skipping storing report.
+2021-01-25T17:28:06.405Z - info: Starting rendering request 25 (user: null)
+2021-01-25T17:28:06.406Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:28:06.408Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:28:06.409Z - debug: Resources not defined for this template.
+2021-01-25T17:28:06.410Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:28:06.412Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:28:06.412Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:28:06.691Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:28:06.694Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:28:06.845Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:28:07.304Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/4ae159f4-c4c3-492e-b2a2-fd666f5eed94-chrome-pdf.html
+2021-01-25T17:28:07.319Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/4ae159f4-c4c3-492e-b2a2-fd666f5eed94-chrome-pdf.html
+2021-01-25T17:28:07.359Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:28:07.739Z - info: Rendering request 25 finished in 1336 ms
+2021-01-25T17:28:07.739Z - debug: Skipping storing report.
+2021-01-25T17:28:30.530Z - info: Starting rendering request 26 (user: null)
+2021-01-25T17:28:30.532Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:28:30.533Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:28:30.534Z - debug: Resources not defined for this template.
+2021-01-25T17:28:30.535Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:28:30.537Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:28:30.538Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:28:31.041Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:28:31.044Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:28:31.422Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:28:31.959Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/27cc623e-d3e8-4e97-9e36-ab9013dd0e06-chrome-pdf.html
+2021-01-25T17:28:31.984Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/27cc623e-d3e8-4e97-9e36-ab9013dd0e06-chrome-pdf.html
+2021-01-25T17:28:32.040Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:28:32.758Z - info: Rendering request 26 finished in 2226 ms
+2021-01-25T17:28:32.759Z - debug: Skipping storing report.
+2021-01-25T17:28:56.777Z - info: Starting rendering request 27 (user: null)
+2021-01-25T17:28:56.778Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:28:56.779Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:28:56.780Z - debug: Resources not defined for this template.
+2021-01-25T17:28:56.781Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:28:56.783Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:28:56.785Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:28:57.209Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:28:57.211Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:28:57.428Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:28:57.960Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/a329f8b2-2611-44d6-851d-fd9cd87e6d8f-chrome-pdf.html
+2021-01-25T17:28:57.976Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/a329f8b2-2611-44d6-851d-fd9cd87e6d8f-chrome-pdf.html
+2021-01-25T17:28:58.041Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:28:58.490Z - info: Rendering request 27 finished in 1712 ms
+2021-01-25T17:28:58.491Z - debug: Skipping storing report.
+2021-01-25T17:29:00.834Z - info: Starting rendering request 28 (user: null)
+2021-01-25T17:29:00.835Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:29:00.836Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:29:00.837Z - debug: Resources not defined for this template.
+2021-01-25T17:29:00.840Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:29:00.842Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:29:00.844Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:29:01.090Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:29:01.092Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:29:01.233Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:29:01.753Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/de81e2d4-f9a6-48e3-af13-2df4de11dd2c-chrome-pdf.html
+2021-01-25T17:29:01.767Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/de81e2d4-f9a6-48e3-af13-2df4de11dd2c-chrome-pdf.html
+2021-01-25T17:29:01.804Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:29:02.179Z - info: Rendering request 28 finished in 1345 ms
+2021-01-25T17:29:02.180Z - debug: Skipping storing report.
+2021-01-25T17:33:22.300Z - info: Starting rendering request 29 (user: null)
+2021-01-25T17:33:22.301Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:33:22.303Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:33:22.305Z - debug: Resources not defined for this template.
+2021-01-25T17:33:22.306Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:33:22.308Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:33:22.309Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:33:22.554Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:33:22.556Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:33:22.908Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:33:23.337Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/68af8d48-7f2f-4b66-92d9-1761c2ef4b09-chrome-pdf.html
+2021-01-25T17:33:23.350Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/68af8d48-7f2f-4b66-92d9-1761c2ef4b09-chrome-pdf.html
+2021-01-25T17:33:23.388Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:33:23.790Z - info: Rendering request 29 finished in 1489 ms
+2021-01-25T17:33:23.790Z - debug: Skipping storing report.
+2021-01-25T17:33:46.505Z - info: Starting rendering request 30 (user: null)
+2021-01-25T17:33:46.506Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-01-25T17:33:46.509Z - debug: Adding sample data Sy5S19ncg
+2021-01-25T17:33:46.510Z - debug: Resources not defined for this template.
+2021-01-25T17:33:46.511Z - debug: Base url not specified, skipping its injection.
+2021-01-25T17:33:46.513Z - debug: Replaced assets ["invoice-styles.css"]
+2021-01-25T17:33:46.514Z - debug: Rendering engine handlebars using dedicated-process strategy
+2021-01-25T17:33:46.753Z - debug: Compiled template not found in the cache, compiling
+2021-01-25T17:33:46.754Z - debug: Executing recipe chrome-pdf
+2021-01-25T17:33:46.899Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2021-01-25T17:33:47.250Z - debug: Page request: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/07ce6928-a8bc-45de-a99f-fe54c6b720d6-chrome-pdf.html
+2021-01-25T17:33:47.263Z - debug: Page request finished: GET (document) file:///C:/Users/rlfla/AppData/Local/Temp/jsreport/autocleanup/07ce6928-a8bc-45de-a99f-fe54c6b720d6-chrome-pdf.html
+2021-01-25T17:33:47.306Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1cm","marginRight":"1cm","marginBottom":"1cm","marginLeft":"1cm","margin":{"top":"1cm","right":"1cm","bottom":"1cm","left":"1cm"}}
+2021-01-25T17:33:47.641Z - info: Rendering request 30 finished in 1135 ms
+2021-01-25T17:33:47.642Z - debug: Skipping storing report.

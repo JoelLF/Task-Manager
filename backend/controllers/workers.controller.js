@@ -84,10 +84,10 @@ exports.update = (req, res) => {
 };
 
 exports.delete = (req, res) => {
-  const id = req.params.id;
+  const WorkerName = req.body.WorkerName;
 
   Worker.destroy({
-    where: { id: id }
+    where: { WorkerName: WorkerName }
   })
     .then(num => {
       if (num == 1) {
@@ -96,13 +96,13 @@ exports.delete = (req, res) => {
         });
       } else {
         res.send({
-          message: `Cannot delete Worker with id=${id}. Maybe Worker was not found!`
+          message: `Cannot delete Worker with id=${WorkerName}. Maybe Worker was not found!`
         });
       }
     })
     .catch(err => {
       res.status(500).send({
-        message: "Could not delete Worker with id=" + id
+        message: "Could not delete Worker"
       });
     });
 };
