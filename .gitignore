@@ -1,8 +1,10 @@
 /backend/node_modules
-/backend/.env
+/backend/config/auth.config.js
+/backend/config/db.config.js
 
 /frontend/node_modules
 /froentend/.env
 
 /jsreport/node_modules
 /jsreport/.env
+

@@ -6,6 +6,7 @@
 5. [Interface](#interface)
 6. [Technologies](#technologies)
 7. [Installation](#installation)
+8. [Usage](#Usage)
 
 
 
@@ -47,11 +48,6 @@ For user requirements please refer to the document found at:
 
 You can view a mockup for the interface of the Task Manager at: 
 <p>https://www.fluidui.com/editor/live/preview/cF9OYlRJV1J4YlEwYWg5Y3hTTHZCcGVTTkdNNlRTT2s0Rg==</p>
-
-### Usability
-
-For an in-depth explanation (in spanish) on the Task Manager's usability please refer to the document found at: 
-<p>https://github.com/JoelLF/Task-Manager/blob/master/docs/usability.pdf</p>
 
 ## Technologies
 
@@ -124,12 +120,37 @@ git clone https://github.com/JoelLF/Task-Manager
 npm install
 ```
 
-<li> Open the following file with a text editor and change the user and password to your credentials from MySQL
+<ul> Create the following files at backend/config:
+
+<li> auth.config.js
 </li>
 
-```bash
-backend/config/db.config.js
-```
+<li>With the help of a text editor write the following:
+
+<pre> module.exports = {
+  secret: "type here anything you like to use as unique key"
+};
+</pre>
+</li>
+<li> db.config.js
+</li>
+
+<li>With the help of a text editor write the following:
+</li>  
+  <pre> module.exports = {
+  HOST: "type your MySQL host here (default is localhost)",
+  USER: "type your MySQL user here",
+  PASSWORD: "type your MySQL password here",
+  DB: "db_itc_task_manager",
+  dialect: "mysql",
+  pool: {
+    max: 5,
+    min: 0,
+    acquire: 30000,
+    idle: 10000
+  }
+};</pre>
+</ul>
 
 
 ## Usage
