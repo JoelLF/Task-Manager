@@ -164,7 +164,7 @@ To start using this application:
 node server
 ```
 
-<li>To start the frontend server, use the command-line and navigate towards the backend folder, then use the command:
+<li>To start the frontend server, use the command-line and navigate towards the frontend folder, then use the command:
 </li>
 
 ```bash
